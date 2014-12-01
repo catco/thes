@@ -1,0 +1,14 @@
+#page-header{
+  margin-top: 60px; 
+}
+.container + .container .row{
+  margin-top: 30px; 
+}
+.border{
+  border: 1px solid #141414; 
+}
+.border.top{
+  border: 0;
+  border-top: 1px solid #141414;
+  margin-bottom: 20px;
+}
