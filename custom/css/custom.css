@@ -1,8 +1,14 @@
-#page-header{
+#content{
   margin-top: 60px; 
 }
 .container + .container .row{
   margin-top: 30px; 
+}
+.nom{
+  display: block; 
+}
+.iconAccordion{
+  float: right;
 }
 .border{
   border: 1px solid #141414; 
