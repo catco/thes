@@ -1,0 +1,9 @@
+Dec 1, 2014
+===========
+
+- Init project
+- Update README
+- Add changelog
+- Structure project
+- Add libraries (Bootstrap & jQuery)
+- Basic import of data
