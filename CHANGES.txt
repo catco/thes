@@ -1,5 +1,16 @@
+CHANGELOG
+=========
+
+Dec 8, 2014
+-----------
+
+- Include JSON file to Git
+- Update JSON file
+- Define who wrote the description
+- Add 'Crédits' link 
+
 Dec 1, 2014
-===========
+-----------
 
 - Init project
 - Update README
