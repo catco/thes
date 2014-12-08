@@ -8,6 +8,7 @@ Dec 8, 2014
 - Update JSON file
 - Define who wrote the description
 - Add 'Crédits' link 
+- Remove appreciation
 
 Dec 1, 2014
 -----------
