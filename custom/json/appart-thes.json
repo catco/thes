@@ -6,7 +6,7 @@
         "Origine": "Japon",
         "Temp": "75°",
         "Durée": "3 minutes",
-        "Quantité": "4 grammes",
+        "Quantité/tasse": "4 grammes",
         "jourNuit": "Jour",
         "AppCyrille": null,
         "AppCat": null,
@@ -20,12 +20,12 @@
         "Origine": "Chine",
         "Temp": "75°",
         "Durée": "3-4 minutes",
-        "Quantité": "4 grammes",
+        "Quantité/tasse": "4 grammes",
         "jourNuit": "Jour",
         "AppCyrille": null,
         "AppCat": null,
         "Enseigne": "Palais des Thés",
-        "Description": "Très rares et disponibles de façon très irrégulière, les Perles de Jasmin sont produites à partir de feuilles de thé vert de la meilleure qualité. Elles sont façonnées à la main jusqu'à devenir de petites billes rondes.\nRecroquevillée sur elle-même, la feuille de thé conserve ainsi le parfum délicat de la fleur de jasmin qui a servi à la parfumer. Ce thé spectaculaire donne une infusion de la plus grande qualité : la douceur du thé vert s'harmonise à merveille avec la subtilité du jasmin. Au palais, la rondeur, le velouté de la liqueur rappellent ceux de la perle de thé.\nUn must du thé au jasmin !"
+        "Description": "Très rares et disponibles de façon très irrégulière, les Perles de Jasmin sont produites à partir de feuilles de thé vert de la meilleure qualité. Elles sont façonnées à la main jusqu'à devenir de petites billes rondes. Recroquevillée sur elle-même, la feuille de thé conserve ainsi le parfum délicat de la fleur de jasmin qui a servi à la parfumer. Ce thé spectaculaire donne une infusion de la plus grande qualité : la douceur du thé vert s'harmonise à merveille avec la subtilité du jasmin. Au palais, la rondeur, le velouté de la liqueur rappellent ceux de la perle de thé. Un must du thé au jasmin !"
     },
     {
         "ID": 3,
@@ -34,7 +34,7 @@
         "Origine": "Sri Lanka",
         "Temp": "95°",
         "Durée": "4-5 minutes",
-        "Quantité": "4 grammes",
+        "Quantité/tasse": "4 grammes",
         "jourNuit": "Jour",
         "AppCyrille": null,
         "AppCat": null,
@@ -48,12 +48,12 @@
         "Origine": "Chine",
         "Temp": "75°",
         "Durée": "3 minutes",
-        "Quantité": "4 grammes",
+        "Quantité/tasse": "4 grammes",
         "jourNuit": "Jour",
         "AppCyrille": null,
         "AppCat": null,
         "Enseigne": "Palais des Thés",
-        "Description": "Une alliance douce et fraîche d'un thé vert de Chine aux notes fraîches de pulpe d’orange, aux extraits 100% naturels.\nDécouvrez un thé parfumé de très haute qualité autour d’un ingrédient unique emprunté à la nature : la fleur d’oranger. Il allie la texture veloutée d’un thé vert en aiguilles, récolté en Chine, aux parfums délicats de la fleur d’oranger. Doux et voluptueux !"
+        "Description": "Une alliance douce et fraîche d'un thé vert de Chine aux notes fraîches de pulpe d’orange, aux extraits 100% naturels. Découvrez un thé parfumé de très haute qualité autour d’un ingrédient unique emprunté à la nature : la fleur d’oranger. Il allie la texture veloutée d’un thé vert en aiguilles, récolté en Chine, aux parfums délicats de la fleur d’oranger. Doux et voluptueux !"
     },
     {
         "ID": 5,
@@ -62,7 +62,7 @@
         "Origine": "Chine",
         "Temp": "75°",
         "Durée": "3 minutes",
-        "Quantité": "4 grammes",
+        "Quantité/tasse": "4 grammes",
         "jourNuit": "Jour",
         "AppCyrille": null,
         "AppCat": null,
@@ -76,12 +76,12 @@
         "Origine": "Géorgie",
         "Temp": "95°",
         "Durée": "4-5 minutes",
-        "Quantité": "4 grammes",
+        "Quantité/tasse": "4 grammes",
         "jourNuit": "Jour",
         "AppCyrille": null,
         "AppCat": null,
         "Enseigne": "Palais des Thés",
-        "Description": "Superbe mélange de thés noirs et d'agrumes, évoquant le citron, citron vert, orange douce, orange amère, pamplemousse, bergamote et mandarine. Créé par Palais des Thés dans ses premières années, ce cocktail de 7 agrumes a été ensuite décliné sur d'autres bases de thé en référence à la spécialité slave et son goût russe parfumé. \nDifférents des thés qui poussent en Géorgie, les Goûts russes sont les thés consommés régulièrement en Russie depuis le XVII ème siècle. A l'origine, mélanges de thés noirs chinois, les thés consommés par les Russes se diversifient avec l'arrivée, à la fin du XIX ème siècle, des thés de l'Inde, Darjeeling notamment, à la cour de Russie. On a pris depuis l'habitude d'appeler Goût Russe, tout mélange de différents thés noirs chinois et de Darjeeling, parfumé ou non avec des essences naturelles d'agrumes."
+        "Description": "Superbe mélange de thés noirs et d'agrumes, évoquant le citron, citron vert, orange douce, orange amère, pamplemousse, bergamote et mandarine. Créé par Palais des Thés dans ses premières années, ce cocktail de 7 agrumes a été ensuite décliné sur d'autres bases de thé en référence à la spécialité slave et son goût russe parfumé. Différents des thés qui poussent en Géorgie, les Goûts russes sont les thés consommés régulièrement en Russie depuis le XVII ème siècle. A l'origine, mélanges de thés noirs chinois, les thés consommés par les Russes se diversifient avec l'arrivée, à la fin du XIX ème siècle, des thés de l'Inde, Darjeeling notamment, à la cour de Russie. On a pris depuis l'habitude d'appeler Goût Russe, tout mélange de différents thés noirs chinois et de Darjeeling, parfumé ou non avec des essences naturelles d'agrumes."
     },
     {
         "ID": 7,
@@ -90,12 +90,12 @@
         "Origine": "Chine",
         "Temp": "95°",
         "Durée": "4-5 minutes",
-        "Quantité": "4 grammes",
+        "Quantité/tasse": "4 grammes",
         "jourNuit": "Jour",
         "AppCyrille": null,
         "AppCat": null,
         "Enseigne": "Palais des Thés",
-        "Description": "En créant le Thé des Concubines, Palais des Thés a souhaité restituer l'ambiance feutrée d'une maison de thé chinoise.\nThé rare et doux, le Thé des Concubines est un mélange raffiné et délicat de thés verts et noirs de Chine, agrémenté de pétales de rose et de morceaux de fruits, aux notes fruitées et gourmandes de cerise, de mangue et de vanille."
+        "Description": "En créant le Thé des Concubines, Palais des Thés a souhaité restituer l'ambiance feutrée d'une maison de thé chinoise. Thé rare et doux, le Thé des Concubines est un mélange raffiné et délicat de thés verts et noirs de Chine, agrémenté de pétales de rose et de morceaux de fruits, aux notes fruitées et gourmandes de cerise, de mangue et de vanille."
     },
     {
         "ID": 8,
@@ -104,12 +104,12 @@
         "Origine": "Turquie",
         "Temp": "75°",
         "Durée": "3 minutes",
-        "Quantité": "4 grammes",
+        "Quantité/tasse": "4 grammes",
         "jourNuit": "Jour",
         "AppCyrille": null,
         "AppCat": null,
         "Enseigne": "Palais des Thés",
-        "Description": "Inspiré d'une recette turque à base de thé vert, c'est un délicieux mélange fruité évoquant les aromates qui parfument le hammam : rose, datte verte, fruits rouges et fleur d'oranger. \nIl est agrémenté, dans la plus pure tradition orientale, de pétales de fleurs. Sa fragrance extraordinaire naît de la subtile association du thé vert de Chine, réputé pour sa fraîcheur et ses vertus désaltérantes, et des parfums gourmands des fruits."
+        "Description": "Inspiré d'une recette turque à base de thé vert, c'est un délicieux mélange fruité évoquant les aromates qui parfument le hammam : rose, datte verte, fruits rouges et fleur d'oranger. Il est agrémenté, dans la plus pure tradition orientale, de pétales de fleurs. Sa fragrance extraordinaire naît de la subtile association du thé vert de Chine, réputé pour sa fraîcheur et ses vertus désaltérantes, et des parfums gourmands des fruits."
     },
     {
         "ID": 9,
@@ -118,7 +118,7 @@
         "Origine": "",
         "Temp": "90°",
         "Durée": "4-5 minutes",
-        "Quantité": "4 grammes",
+        "Quantité/tasse": "4 grammes",
         "jourNuit": "Jour",
         "AppCyrille": null,
         "AppCat": null,
@@ -132,7 +132,7 @@
         "Origine": "",
         "Temp": "95°",
         "Durée": "5-7 minutes",
-        "Quantité": "4 grammes",
+        "Quantité/tasse": "4 grammes",
         "jourNuit": "Nuit",
         "AppCyrille": null,
         "AppCat": null,
@@ -146,12 +146,12 @@
         "Origine": "",
         "Temp": "75°",
         "Durée": "3 minutes",
-        "Quantité": "4 grammes",
+        "Quantité/tasse": "4 grammes",
         "jourNuit": "Jour",
         "AppCyrille": null,
         "AppCat": null,
         "Enseigne": "Palais des Thés",
-        "Description": "Le Thé des Alizés est un thé vert parfumé aux fruits exotiques. Il évoque la pêche blanche, le kiwi, la pastèque…\nSuperbe équilibre du thé vert et de la fraîcheur des fruits pour un voyage vers les mers turquoises du sud. Agrémenté de pétales de fleurs, il se déguste aussi bien chaud que glacé."
+        "Description": "Le Thé des Alizés est un thé vert parfumé aux fruits exotiques. Il évoque la pêche blanche, le kiwi, la pastèque… Superbe équilibre du thé vert et de la fraîcheur des fruits pour un voyage vers les mers turquoises du sud. Agrémenté de pétales de fleurs, il se déguste aussi bien chaud que glacé."
     },
     {
         "ID": 12,
@@ -160,12 +160,12 @@
         "Origine": "",
         "Temp": "75°",
         "Durée": "3 minutes",
-        "Quantité": "4 grammes",
+        "Quantité/tasse": "4 grammes",
         "jourNuit": "Jour",
         "AppCyrille": null,
         "AppCat": null,
         "Enseigne": "Palais des Thés",
-        "Description": "Création exclusive de Palais des Thés, le Thé des Vahinés est une recette gourmande qui marie les parfums de la vanille, de l’amande et des pétales de souci. Déclinée sur base de thé vert, cette nouvelle recette est agrémentée de boutons de rose.\nLe Thé des Vahinés – Thé vert est un plaisir des sens suave et chaleureux, un beau thé au bouquet fleuri évoquant les îles."
+        "Description": "Création exclusive de Palais des Thés, le Thé des Vahinés est une recette gourmande qui marie les parfums de la vanille, de l’amande et des pétales de souci. Déclinée sur base de thé vert, cette nouvelle recette est agrémentée de boutons de rose. Le Thé des Vahinés – Thé vert est un plaisir des sens suave et chaleureux, un beau thé au bouquet fleuri évoquant les îles."
     },
     {
         "ID": 13,
@@ -174,12 +174,12 @@
         "Origine": "",
         "Temp": "95°",
         "Durée": "5 minutes",
-        "Quantité": "4 grammes",
+        "Quantité/tasse": "4 grammes",
         "jourNuit": "Nuit",
         "AppCyrille": null,
         "AppCat": null,
         "Enseigne": "Palais des Thés",
-        "Description": "Inspiré d'une recette traditionnelle turque, le Thé du Hammam est une création de Palais des Thés aux accents fruités et gourmands.\nCette nouvelle recette associe avec originalité la pulpe de datte verte et la générosité des fruits rouges à la rondeur du Rooibos."
+        "Description": "Inspiré d'une recette traditionnelle turque, le Thé du Hammam est une création de Palais des Thés aux accents fruités et gourmands. Cette nouvelle recette associe avec originalité la pulpe de datte verte et la générosité des fruits rouges à la rondeur du Rooibos."
     },
     {
         "ID": 14,
@@ -188,7 +188,7 @@
         "Origine": "",
         "Temp": "80°",
         "Durée": "3-5 minutes",
-        "Quantité": "4 grammes",
+        "Quantité/tasse": "4 grammes",
         "jourNuit": "Jour",
         "AppCyrille": null,
         "AppCat": null,
@@ -202,7 +202,7 @@
         "Origine": "",
         "Temp": "85°",
         "Durée": "4-5 minutes",
-        "Quantité": "4 grammes",
+        "Quantité/tasse": "4 grammes",
         "jourNuit": "Jour",
         "AppCyrille": null,
         "AppCat": null,
@@ -216,12 +216,12 @@
         "Origine": "Corée, région d’Hadong",
         "Temp": "90°",
         "Durée": "4 minutes",
-        "Quantité": "4 grammes",
+        "Quantité/tasse": "4 grammes",
         "jourNuit": "",
         "AppCyrille": null,
         "AppCat": null,
         "Enseigne": "Palais des Thés",
-        "Description": "Un thé tout simplement hors du commun. Entièrement récolté et manufacturé à la main, ce cru en provenance de la ferme Jukro fait partie des meilleurs thés noirs produits dans le pays. Le bouquet cacaoté et vanillé évoque la note gourmande des Qimen Mao Feng chinois mais sa puissance, sa richesse et son intensité nous entraînent plutôt vers les meilleurs Oolong sombres de Taïwan. Une expérience de très haute gastronomie !\nEntièrement récolté et manufacturé à la main, ce cru en provenance de la ferme Jukro fait partie des meilleurs thés noirs produits dans le pays."
+        "Description": "Un thé tout simplement hors du commun. Entièrement récolté et manufacturé à la main, ce cru en provenance de la ferme Jukro fait partie des meilleurs thés noirs produits dans le pays. Le bouquet cacaoté et vanillé évoque la note gourmande des Qimen Mao Feng chinois mais sa puissance, sa richesse et son intensité nous entraînent plutôt vers les meilleurs Oolong sombres de Taïwan. Une expérience de très haute gastronomie ! Entièrement récolté et manufacturé à la main, ce cru en provenance de la ferme Jukro fait partie des meilleurs thés noirs produits dans le pays."
     },
     {
         "ID": 17,
@@ -230,12 +230,12 @@
         "Origine": "Chine",
         "Temp": "75°",
         "Durée": "5-7 minutes",
-        "Quantité": "4 grammes",
+        "Quantité/tasse": "4 grammes",
         "jourNuit": "Jour",
         "AppCyrille": null,
         "AppCat": null,
         "Enseigne": "Palais des Thés",
-        "Description": "Découvrez notre célèbre recette de Noël, le Thé N°25, sur un beau thé blanc de Chine.\nLa fameuse recette du Thé N°25, mélange réconfortant de gousses de vanille, d’amandes, de cannelle, de gingembre, d’écorce d’orange et de zestes de citron, s’associe dans une parfaite harmonie à la délicatesse du thé blanc. Un très beau thé pour un Noël inoubliable !"
+        "Description": "Découvrez notre célèbre recette de Noël, le Thé N°25, sur un beau thé blanc de Chine. La fameuse recette du Thé N°25, mélange réconfortant de gousses de vanille, d’amandes, de cannelle, de gingembre, d’écorce d’orange et de zestes de citron, s’associe dans une parfaite harmonie à la délicatesse du thé blanc. Un très beau thé pour un Noël inoubliable !"
     },
     {
         "ID": 18,
@@ -244,12 +244,12 @@
         "Origine": "Japon",
         "Temp": "70°",
         "Durée": "2-2,30 minutes",
-        "Quantité": "4 grammes",
+        "Quantité/tasse": "4 grammes",
         "jourNuit": "Jour",
         "AppCyrille": null,
         "AppCat": null,
         "Enseigne": "Palais des Thés",
-        "Description": "Dernier-né de la collection des Plaisirs Purs qui associent des thés d’exception à des parfums uniques empruntés à la nature, Le Yuzu est une composition exceptionnelle, fine, délicate, et à l’équilibre parfait, célébrant la rencontre de deux ingrédients parmi les plus précieux du Japon : le thé Shincha et le Yuzu. \nCette création inédite hisse le thé parfumé au rang des plus grands crus de thé vert. \nLa rencontre de deux ingrédients prestigieux :\nLe thé Shincha est un thé vert issu de la première récolte de l’année d’une fraîcheur végétale exceptionnelle, il est considéré comme l’un des plus fins et délicats thés verts au monde.\nLe Yuzu est un agrume rare proche du citron et de la mandarine, délicieusement zesté, il est vénéré et très prisé par la gastronomie japonaise.\nUne expérience de dégustation raffinée ! \nUn écrin d’exception\nDans son édition prestige, votre Plaisirs Purs - Le Yuzu, est présenté dans une très belle boîte en métal contenant 170g de thé Yuzu,  emballée dans un très bel écrin qui fait de ce thé un véritable coffret prestige. Il est accompagné d’un livret de présentation révélant l’histoire de la création du Yuzu et ses conseils de préparation."
+        "Description": "Dernier-né de la collection des Plaisirs Purs qui associent des thés d’exception à des parfums uniques empruntés à la nature, Le Yuzu est une composition exceptionnelle, fine, délicate, et à l’équilibre parfait, célébrant la rencontre de deux ingrédients parmi les plus précieux du Japon : le thé Shincha et le Yuzu. \nCette création inédite hisse le thé parfumé au rang des plus grands crus de thé vert. La rencontre de deux ingrédients prestigieux : le thé Shincha est un thé vert issu de la première récolte de l’année d’une fraîcheur végétale exceptionnelle, il est considéré comme l’un des plus fins et délicats thés verts au monde. Le Yuzu est un agrume rare proche du citron et de la mandarine, délicieusement zesté, il est vénéré et très prisé par la gastronomie japonaise. Une expérience de dégustation raffinée ! Un écrin d’exception. Dans son édition prestige, votre Plaisirs Purs - Le Yuzu, est présenté dans une très belle boîte en métal contenant 170g de thé Yuzu, emballée dans un très bel écrin qui fait de ce thé un véritable coffret prestige. Il est accompagné d’un livret de présentation révélant l’histoire de la création du Yuzu et ses conseils de préparation."
     },
     {
         "ID": 19,
@@ -258,12 +258,12 @@
         "Origine": "Madagascar",
         "Temp": "80°",
         "Durée": "3-5 minutes",
-        "Quantité": "4 grammes",
+        "Quantité/tasse": "4 grammes",
         "jourNuit": "Jour",
         "AppCyrille": null,
         "AppCat": null,
         "Enseigne": "Palais des Thés",
-        "Description": "Découvrez votre nouveau cadeau Théophile pour Noël : l’Édition limitée Vanille des Îles ! Délicat thé blanc associé à une vanille naturelle d’exception en provenance de Madagascar. \nPour un moment d’évasion gourmand au cœur des îles."
+        "Description": "Découvrez votre nouveau cadeau Théophile pour Noël : l’Édition limitée Vanille des Îles ! Délicat thé blanc associé à une vanille naturelle d’exception en provenance de Madagascar.  Pour un moment d’évasion gourmand au cœur des îles."
     },
     {
         "ID": 20,
@@ -272,26 +272,26 @@
         "Origine": "Chine, Fujian",
         "Temp": "70°",
         "Durée": "8-12 minutes",
-        "Quantité": "4 grammes",
+        "Quantité/tasse": "4 grammes",
         "jourNuit": "",
         "AppCyrille": null,
         "AppCat": null,
         "Enseigne": "Palais des Thés",
-        "Description": "Très réputé sous la dynastie Song, le Yin Zen (Aiguille d’Argent) est un thé blanc sujet à de nombreuses légendes telles que sa récolte les nuits de pleine lune ou qu’une partie de celle-ci était réservée exclusivement à l’empereur.\nCe thé de Chine jouit d’un grand prestige tant par les soins apportés à sa cueillette que par la finesse unique des parfums de ses bourgeons argentés. D’une grande subtilité, ce thé spectaculaire est à préparer avec la plus grande attention pour en apprécier toutes ses qualités gustatives."
+        "Description": "Très réputé sous la dynastie Song, le Yin Zen (Aiguille d’Argent) est un thé blanc sujet à de nombreuses légendes telles que sa récolte les nuits de pleine lune ou qu’une partie de celle-ci était réservée exclusivement à l’empereur. Ce thé de Chine jouit d’un grand prestige tant par les soins apportés à sa cueillette que par la finesse unique des parfums de ses bourgeons argentés. D’une grande subtilité, ce thé spectaculaire est à préparer avec la plus grande attention pour en apprécier toutes ses qualités gustatives."
     },
     {
         "ID": 21,
-        "Nom": "Rohini DJ 8 \"Rose\"",
+        "Nom": "Rohini DJ 8 'Rose'",
         "Variété": "Thé noir",
         "Origine": "Inde, Darjeeling, Rohini",
         "Temp": "85°",
         "Durée": "3,45 minutes",
-        "Quantité": "4 grammes",
+        "Quantité/tasse": "4 grammes",
         "jourNuit": "Jour",
         "AppCyrille": null,
         "AppCat": null,
         "Enseigne": "Palais des Thés",
-        "Description": "Manufacturé dans un jardin que nous connaissons bien désormais, ce lot de Rohini présente une belle texture souple en attaque, suivie d’une fine astringence en longueur, qui dévoile ainsi d’agréables notes rosées, chocolatées et végétales très accessibles.\nRohini fait partie des cinq villages qui composent le district de Kurseong à Darjeeling (Bengale-Occidental). Constitué de plus de 1400 hectares de théiers, il était considéré comme le plus grand jardin de Darjeeling avant la guerre d’Indochine, mais l’installation d’un camp militaire du nom de « Khaprail » obligea l’arrachage de quasiment 80% des plants de théiers. Le jardin fut alors fermé durant plus de 30 ans, puis fut rouvert avec la plantation d’une centaine de théiers. Depuis, le jardin continue son activité : on y plante régulièrement des théiers par petites parcelles et on consolide le sol. Chaque année, on y ajoute près de 100 000 plants. "
+        "Description": "Manufacturé dans un jardin que nous connaissons bien désormais, ce lot de Rohini présente une belle texture souple en attaque, suivie d’une fine astringence en longueur, qui dévoile ainsi d’agréables notes rosées, chocolatées et végétales très accessibles. Rohini fait partie des cinq villages qui composent le district de Kurseong à Darjeeling (Bengale-Occidental). Constitué de plus de 1400 hectares de théiers, il était considéré comme le plus grand jardin de Darjeeling avant la guerre d’Indochine, mais l’installation d’un camp militaire du nom de « Khaprail » obligea l’arrachage de quasiment 80% des plants de théiers. Le jardin fut alors fermé durant plus de 30 ans, puis fut rouvert avec la plantation d’une centaine de théiers. Depuis, le jardin continue son activité : on y plante régulièrement des théiers par petites parcelles et on consolide le sol. Chaque année, on y ajoute près de 100 000 plants. "
     },
     {
         "ID": 22,
@@ -300,12 +300,12 @@
         "Origine": "Chine",
         "Temp": "75°",
         "Durée": "3 minutes",
-        "Quantité": "4 grammes",
+        "Quantité/tasse": "4 grammes",
         "jourNuit": "Jour",
         "AppCyrille": null,
         "AppCat": null,
         "Enseigne": "Palais des Thés",
-        "Description": "Ce thé marie les parfums frais, poivrés des feuilles de menthe avec les notes végétales d’un très beau thé vert aux longues feuilles, récolté en Chine.\nDécouvrez un thé parfumé de très haute qualité autour d’un ingrédient unique emprunté à la nature : la menthe. Il marie les parfums frais, poivrés des feuilles de menthe avec les notes végétales d’un très beau thé vert aux longues feuilles, récolté en Chine. Idéal pour se rafraîchir !"
+        "Description": "Ce thé marie les parfums frais, poivrés des feuilles de menthe avec les notes végétales d’un très beau thé vert aux longues feuilles, récolté en Chine. Découvrez un thé parfumé de très haute qualité autour d’un ingrédient unique emprunté à la nature : la menthe. Il marie les parfums frais, poivrés des feuilles de menthe avec les notes végétales d’un très beau thé vert aux longues feuilles, récolté en Chine. Idéal pour se rafraîchir !"
     },
     {
         "ID": 23,
@@ -314,12 +314,12 @@
         "Origine": "",
         "Temp": "95°",
         "Durée": "5 minutes",
-        "Quantité": "4 grammes",
+        "Quantité/tasse": "4 grammes",
         "jourNuit": "Nuit",
         "AppCyrille": null,
         "AppCat": null,
         "Enseigne": "Palais des Thés",
-        "Description": "Le Palais des Thés décline son Earl Grey favori, le Thé des Lords, sur une base de Rooibos.\nLe mélange, agrémenté de pétales rouge, associe harmonieusement la puissance citronnée de notre bergamote et la rondeur du Rooibos.\nNaturellement sans théine, il est idéal le soir pour les inconditionnels de Earl Grey."
+        "Description": "Le Palais des Thés décline son Earl Grey favori, le Thé des Lords, sur une base de Rooibos. Le mélange, agrémenté de pétales rouge, associe harmonieusement la puissance citronnée de notre bergamote et la rondeur du Rooibos. Naturellement sans théine, il est idéal le soir pour les inconditionnels de Earl Grey."
     },
     {
         "ID": 24,
@@ -328,12 +328,12 @@
         "Origine": "",
         "Temp": "85°",
         "Durée": "3-5 minutes",
-        "Quantité": "4 grammes",
+        "Quantité/tasse": "4 grammes",
         "jourNuit": "Jour",
         "AppCyrille": null,
         "AppCat": null,
         "Enseigne": "Palais des Thés",
-        "Description": "Le Earl Grey est un grand classique anglais, depuis que Charles Grey, comte (earl en anglais) de Falodon et ministre des Affaires étrangères du Royaume britannique au milieu du XIX ème siècle, reçut d'un mandarin chinois une vieille recette consistant à aromatiser son thé avec de la bergamote.\nLa qualité d’un Earl Grey est fonction de la qualité de la bergamote utilisée, celles de Calabre et de Sicile sont les plus réputées.vUn Earl Grey d'exception : \nLe Spring of London est un mélange remarquable d'équilibre et de finesse d’un des meilleurs thés au monde, le Darjeeling de printemps, et d’une bergamote fraîche et délicate, originaire de Calabre.\nCe thé noir complète une famille (Blue of London et Green of London) qui rencontre un vrai succès auprès des inconditionnels de Earl Grey.\nIl permet également d’initier au Darjeeling de printemps, thé rare d’une grande finesse.\nLe Spring of London accompagne ainsi les amateurs de Earl Grey vers des thés de qualité supérieure."
+        "Description": "Le Earl Grey est un grand classique anglais, depuis que Charles Grey, comte (earl en anglais) de Falodon et ministre des Affaires étrangères du Royaume britannique au milieu du XIX ème siècle, reçut d'un mandarin chinois une vieille recette consistant à aromatiser son thé avec de la bergamote. La qualité d’un Earl Grey est fonction de la qualité de la bergamote utilisée, celles de Calabre et de Sicile sont les plus réputées. Un Earl Grey d'exception : le Spring of London est un mélange remarquable d'équilibre et de finesse d’un des meilleurs thés au monde, le Darjeeling de printemps, et d’une bergamote fraîche et délicate, originaire de Calabre. Ce thé noir complète une famille (Blue of London et Green of London) qui rencontre un vrai succès auprès des inconditionnels de Earl Grey. Il permet également d’initier au Darjeeling de printemps, thé rare d’une grande finesse. Le Spring of London accompagne ainsi les amateurs de Earl Grey vers des thés de qualité supérieure."
     },
     {
         "ID": 25,
@@ -342,12 +342,12 @@
         "Origine": "",
         "Temp": "75°",
         "Durée": "3 minutes",
-        "Quantité": "4 grammes",
+        "Quantité/tasse": "4 grammes",
         "jourNuit": "Jour",
         "AppCyrille": null,
         "AppCat": null,
         "Enseigne": "Palais des Thés",
-        "Description": "Inspiré de la recette de la pomme d’ambre qui illumine et parfume chaleureusement les fêtes de Noël, le Thé N°25 Cannelle & Orange est une édition limitée de notre célèbre recette de Noël, le Thé N°25.\nSur une base de thé vert, les bâtons de cannelle se mêlent aux écorces d’orange, aux morceaux d’amande et aux pétales de vanille, pour un résultat résolument fruité et gourmand. Un thé festif, réconfortant et chaleureux, à déguster, à offrir et à partager en toute occasion !"
+        "Description": "Inspiré de la recette de la pomme d’ambre qui illumine et parfume chaleureusement les fêtes de Noël, le Thé N°25 Cannelle & Orange est une édition limitée de notre célèbre recette de Noël, le Thé N°25. Sur une base de thé vert, les bâtons de cannelle se mêlent aux écorces d’orange, aux morceaux d’amande et aux pétales de vanille, pour un résultat résolument fruité et gourmand. Un thé festif, réconfortant et chaleureux, à déguster, à offrir et à partager en toute occasion !"
     },
     {
         "ID": 26,
@@ -356,7 +356,7 @@
         "Origine": "",
         "Temp": "70°",
         "Durée": "5-7 minutes",
-        "Quantité": "4 grammes",
+        "Quantité/tasse": "4 grammes",
         "jourNuit": "Jour",
         "AppCyrille": null,
         "AppCat": null,
@@ -366,11 +366,11 @@
     {
         "ID": 27,
         "Nom": "Hao Hao",
-        "Variété": "Infusion de Bambou",
+        "Variété": "Infusion",
         "Origine": "",
         "Temp": "75°",
         "Durée": "5 minutes",
-        "Quantité": "4 grammes",
+        "Quantité/tasse": "4 grammes",
         "jourNuit": "Jour",
         "AppCyrille": null,
         "AppCat": null,
@@ -380,15 +380,99 @@
     {
         "ID": 28,
         "Nom": "Jardin Tropical",
-        "Variété": "Infusion de fruits exotiques",
+        "Variété": "Infusion",
         "Origine": "",
         "Temp": "90°",
         "Durée": "4-5 minutes",
-        "Quantité": "4 grammes",
+        "Quantité/tasse": "4 grammes",
         "jourNuit": "Jour",
         "AppCyrille": null,
         "AppCat": null,
-        "Enseigne": "",
-        "Description": "Excellent en thé froid également (une boule remplie, un thermo Starbucks pendant 1h)"
+        "Enseigne": "Palais des Thés",
+        "Description": "Excellent en thé froid également (un sachet rempli, un thermo Starbucks pendant 1h)"
+    },
+    {
+        "ID": 29,
+        "Nom": "Jardin Suspendu",
+        "Variété": "Infusion",
+        "Origine": "",
+        "Temp": "90°",
+        "Durée": "4-5 minutes",
+        "Quantité/tasse": "4 grammes",
+        "jourNuit": "Jour/nuit",
+        "AppCyrille": null,
+        "AppCat": null,
+        "Enseigne": "Palais des Thés",
+        "Description": "Infusion gourmande aux fruits et plantes, c'est un mélange de pomme, d'hibiscus, de bergamote et de fleurs qui évoque une brise douce et légère. Totalement dépourvu de théine, il se déguste aussi bien chaud que glacé (un sachet rempli, un thermo Starbucks pendant 1h)."
+    },
+    {
+        "ID": 30,
+        "Nom": "Jardin Fruité",
+        "Variété": "Infusion",
+        "Origine": "",
+        "Temp": "90°",
+        "Durée": "4-5 minutes",
+        "Quantité/tasse": "4 grammes",
+        "jourNuit": "Jour/nuit",
+        "AppCyrille": null,
+        "AppCat": null,
+        "Enseigne": "Palais des Thés",
+        "Description": "Infusion gourmande aux fruits et plantes, c'est un mélange de baies de goji, de fruits rouges, de dattes et de kiwi qui évoque la gourmandise des vergers ensoleillés. Totalement dépourvu de théine, il se déguste aussi bien chaud que glacé (un sachet rempli, un thermo Starbucks pendant 1h)."
+    },
+    {
+        "ID": 31,
+        "Nom": "Jardin d'eau",
+        "Variété": "Infusion",
+        "Origine": "",
+        "Temp": "90°",
+        "Durée": "4-5 minutes",
+        "Quantité/tasse": "4 grammes",
+        "jourNuit": "Jour/nuit",
+        "AppCyrille": null,
+        "AppCat": null,
+        "Enseigne": "Palais des Thés",
+        "Description": "Infusion gourmande aux fruits et plantes, c'est un mélange aux saveurs de melon, de papaye et de baies de goji qui évoque la fraicheur de la rosée. Totalement dépourvu de théine, il se déguste aussi bien chaud que glacé (un sachet rempli, un thermo Starbucks pendant 1h)."
+    },
+    {
+        "ID": 32,
+        "Nom": "Tisane des petits bonheurs",
+        "Variété": "Tisane",
+        "Origine": "",
+        "Temp": "",
+        "Durée": "5 minutes",
+        "Quantité/tasse": "4 grammes",
+        "jourNuit": "Nuit",
+        "AppCyrille": null,
+        "AppCat": null,
+        "Enseigne": "La Septième Tasse",
+        "Description": "Tisane sans théine aux saveurs citronnées, c'est un mélange de verveine, mélisse, citronnelle, tulsi (basilic royal), honey-bush, morceaux de pomme, canelle et pétales de souci. Fraiche et digeste, cette infusion peut se boire à toute heure."
+    },
+    {
+        "ID": 33,
+        "Nom": "Shira Sakura",
+        "Variété": "Thé blanc",
+        "Origine": "Chine",
+        "Temp": "80-90°",
+        "Durée": "3-5 minutes",
+        "Quantité/tasse": "4 grammes",
+        "jourNuit": "Jour",
+        "AppCyrille": null,
+        "AppCat": null,
+        "Enseigne": "La Septième Tasse",
+        "Description": "Mélange aux saveurs florales légèrement sucrées de fleurs de cerisier. Sur une base de thé blanc de Chine et agrémenté de fleurs de thé, de pétales de rose et de bourgeons de thé blanc. Il vous procurera une tasse cristalline, suave et veloutée."
+    },
+    {
+        "ID": 34,
+        "Nom": "Green Tonic",
+        "Variété": "Thé vert",
+        "Origine": "Chine",
+        "Temp": "",
+        "Durée": "2 minutes 30",
+        "Quantité/tasse": "4 grammes",
+        "jourNuit": "Jour",
+        "AppCyrille": null,
+        "AppCat": null,
+        "Enseigne": "La Septième Tasse",
+        "Description": "Mélange énergisant de thé vert de Chine agrémenté de ginseng, de gingembre, de nectarine et d'ananas. A la fois frais et piquant, c'est un cocktail efficace pour démarrer du bon pied même par temps gris !"
     }
 ]
