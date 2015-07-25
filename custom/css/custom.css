@@ -1,20 +1,35 @@
-#content{
+#content {
   margin-top: 60px; 
 }
-.container + .container .row{
+.container + .container .row {
   margin-top: 30px; 
 }
-.nom{
+.nom {
   display: block; 
 }
-.iconAccordion{
+.iconAccordion {
   float: right;
 }
-.border{
+.border {
   border: 1px solid #141414; 
 }
-.border.top{
+.border.top {
   border: 0;
   border-top: 1px solid #141414;
   margin-bottom: 20px;
+}
+.icons {
+  height: 20px;
+  margin-right: 5px;
+  margin-top: -6px;
+}
+.itemIcons {
+  display: inline-block;
+}
+.itemIcons {
+  margin-left: 20px;
+  margin-top: 8px;
+}
+.itemIcons:first-child {
+  margin-left: 0;
 }
