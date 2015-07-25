@@ -1,8 +1,8 @@
 // Parse JSON and show info
 $(document).ready(function() {
   $.ajax({
-    url: "http://localhost:8888/thes/custom/json/appart-thes.json",
-    //url: "custom/json/appart-thes.json",
+    //url: "http://localhost:8888/thes/custom/json/appart-thes.json",
+    url: "custom/json/appart-thes.json",
     dataType: "text",
     success: function(appartthes) {
       var json = $.parseJSON(appartthes);
