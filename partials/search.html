@@ -1,0 +1,22 @@
+<section class="thespage">
+<form class="navbar-form navbar-left search hidden-md hidden-lg" role="search">
+  <div class="form-group">
+    <input type="text" class="form-control" ng-model="query" placeholder="Rechercher un thé" autofocus>
+  </div>
+</form>
+<accordion close-others="oneAtATime">
+  <accordion-group heading="{{the.Nom}}" is-open="status.isFirstOpen" is-disabled="status.isFirstDisabled" ng-repeat="the in thes | filter: query">
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 leftSide">
+          <strong>Variété : </strong> {{the.Variete}}
+          <br /><strong>Origine :</strong> {{the.Origine}}
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 rightSide">
+          <div class="itemIcons"><img class="icons" src="custom/img/temp.png" alt="Température d\'infusion" /> {{the.Temp}}</div>
+          <div class="itemIcons"><img class="icons" src="custom/img/duree.png" alt="Durée d\'infusion" />{{the.Duree}}</div>
+          <div class="itemIcons"><img class="icons" src="custom/img/quantite-tasse.png" alt="Quantité par tasse" />{{the.Quantite}}</div>
+          <div class="itemIcons"><img class="icons" src="custom/img/quantite-bouilloire.png" alt="Quantité pour la bouilloire remplie au minimum" />{{the.quantiteBouilloire}}</div>
+          <div class="itemIcons"><img class="icons jourNuitClass" src="custom/img/" alt="{{the.jourNuit}}" title="{{the.jourNuitID}}" /></div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><strong>Description :</strong> {{the.Description}}</div>
+  </accordion-group>
+</accordion>

@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Appartement des Thés - Parce que le thé, c'est bon !</title>
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="lib/angular/angular-csp.css" />
+    <!--[if IE]>
+    <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="custom/css/custom.css">
+    <link rel="apple-touch-icon" href="custom/img/touch-icon-iphone.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="custom/img/touch-icon-ipad.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="custom/img/touch-icon-iphone-retina.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="custom/img/touch-icon-ipad-retina.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="custom/img/favicon.ico" />
+  </head>
+  <body>
+    <div class="panel-group theslist" id="accordion" role="tablist" aria-multiselectable="true" ng-show="query">
+  
+   
+   <!-- ngRepeat: the in thes | filter: query | orderBy: theOrder:direction --><div class="panel panel-default ng-scope" ng-repeat="the in thes | filter: query | orderBy: theOrder:direction">
+    <div class="panel-heading" role="tab" id="heading18">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse18" aria-expanded="true" aria-controls="collapse18" class="ng-binding">
+          Le Yuzu
+          <span class="iconAccordion"></span>
+        </a>
+      </h4>
+    </div>
+    <div id="collapse18" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading18">
+      <div class="panel-body">
+         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 leftSide ng-binding">
+          <strong>Variété : </strong> Thé vert (Plaisirs purs)
+          <br><strong>Origine :</strong> Japon
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 rightSide">
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/temp.png" alt="Température d\'infusion"> 70°</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/duree.png" alt="Durée d\'infusion">2-2,30'</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-tasse.png" alt="Quantité par tasse"></div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-bouilloire.png" alt="Quantité pour la bouilloire remplie au minimum">10g</div>
+          <div class="itemIcons"><img class="icons jourNuitClass" src="custom/img/" alt="Jour" title="jourNuit1"></div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ng-binding"><strong>Description '+whoDesc}} :</strong> Dernier-né de la collection des Plaisirs Purs qui associent des thés d’exception à des parfums uniques empruntés à la nature, Le Yuzu est une composition exceptionnelle, fine, délicate, et à l’équilibre parfait, célébrant la rencontre de deux ingrédients parmi les plus précieux du Japon : le thé Shincha et le Yuzu. 
+Cette création inédite hisse le thé parfumé au rang des plus grands crus de thé vert. La rencontre de deux ingrédients prestigieux : le thé Shincha est un thé vert issu de la première récolte de l’année d’une fraîcheur végétale exceptionnelle, il est considéré comme l’un des plus fins et délicats thés verts au monde. Le Yuzu est un agrume rare proche du citron et de la mandarine, délicieusement zesté, il est vénéré et très prisé par la gastronomie japonaise. Une expérience de dégustation raffinée ! Un écrin d’exception. Dans son édition prestige, votre Plaisirs Purs - Le Yuzu, est présenté dans une très belle boîte en métal contenant 170g de thé Yuzu, emballée dans un très bel écrin qui fait de ce thé un véritable coffret prestige. Il est accompagné d’un livret de présentation révélant l’histoire de la création du Yuzu et ses conseils de préparation.</div>
+      </div>
+    </div>
+  </div><!-- end ngRepeat: the in thes | filter: query | orderBy: theOrder:direction --><div class="panel panel-default ng-scope" ng-repeat="the in thes | filter: query | orderBy: theOrder:direction">
+    <div class="panel-heading" role="tab" id="heading1">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1" class="ng-binding">
+          Fleur de Geisha
+          <span class="iconAccordion"></span>
+        </a>
+      </h4>
+    </div>
+    <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1">
+      <div class="panel-body">
+         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 leftSide ng-binding">
+          <strong>Variété : </strong> Thé vert
+          <br><strong>Origine :</strong> Japon
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 rightSide">
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/temp.png" alt="Température d\'infusion"> 75°</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/duree.png" alt="Durée d\'infusion">3'</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-tasse.png" alt="Quantité par tasse"></div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-bouilloire.png" alt="Quantité pour la bouilloire remplie au minimum">10g</div>
+          <div class="itemIcons"><img class="icons jourNuitClass" src="custom/img/" alt="Jour" title="jourNuit1"></div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ng-binding"><strong>Description '+whoDesc}} :</strong> Fleur de Geisha est un thé vert évoquant la fleur de cerisier.
+Délicatement parfumé, il a été composé en hommage aux femmes de Kyoto.</div>
+      </div>
+    </div>
+  </div><!-- end ngRepeat: the in thes | filter: query | orderBy: theOrder:direction --><div class="panel panel-default ng-scope" ng-repeat="the in thes | filter: query | orderBy: theOrder:direction">
+    <div class="panel-heading" role="tab" id="heading3">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapse3" class="ng-binding">
+          N°25 Thé Noir
+          <span class="iconAccordion"></span>
+        </a>
+      </h4>
+    </div>
+    <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
+      <div class="panel-body">
+         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 leftSide ng-binding">
+          <strong>Variété : </strong> Thé noir
+          <br><strong>Origine :</strong> Sri Lanka
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 rightSide">
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/temp.png" alt="Température d\'infusion"> 95°</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/duree.png" alt="Durée d\'infusion">4-5'</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-tasse.png" alt="Quantité par tasse"></div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-bouilloire.png" alt="Quantité pour la bouilloire remplie au minimum">10g</div>
+          <div class="itemIcons"><img class="icons jourNuitClass" src="custom/img/" alt="Jour" title="jourNuit1"></div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ng-binding"><strong>Description '+whoDesc}} :</strong> La fameuse recette du Thé N°25, mélange réconfortant de gousses de vanille, d’amandes, de cannelle, de gingembre, d’écorce d’orange et de zestes de citron, s’associe dans une magique harmonie aux notes vives et piquantes du thé noir. Un cocktail détonant pour un Noël des plus chaleureux !</div>
+      </div>
+    </div>
+  </div><!-- end ngRepeat: the in thes | filter: query | orderBy: theOrder:direction --><div class="panel panel-default ng-scope" ng-repeat="the in thes | filter: query | orderBy: theOrder:direction">
+    <div class="panel-heading" role="tab" id="heading4">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="true" aria-controls="collapse4" class="ng-binding">
+          La Fleur d'Oranger
+          <span class="iconAccordion"></span>
+        </a>
+      </h4>
+    </div>
+    <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
+      <div class="panel-body">
+         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 leftSide ng-binding">
+          <strong>Variété : </strong> Thé vert (plaisirs purs)
+          <br><strong>Origine :</strong> Chine
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 rightSide">
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/temp.png" alt="Température d\'infusion"> 75°</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/duree.png" alt="Durée d\'infusion">3'</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-tasse.png" alt="Quantité par tasse"></div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-bouilloire.png" alt="Quantité pour la bouilloire remplie au minimum">10g</div>
+          <div class="itemIcons"><img class="icons jourNuitClass" src="custom/img/" alt="Jour" title="jourNuit1"></div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ng-binding"><strong>Description '+whoDesc}} :</strong> Une alliance douce et fraîche d'un thé vert de Chine aux notes fraîches de pulpe d’orange, aux extraits 100% naturels. Découvrez un thé parfumé de très haute qualité autour d’un ingrédient unique emprunté à la nature : la fleur d’oranger. Il allie la texture veloutée d’un thé vert en aiguilles, récolté en Chine, aux parfums délicats de la fleur d’oranger. Doux et voluptueux !</div>
+      </div>
+    </div>
+  </div><!-- end ngRepeat: the in thes | filter: query | orderBy: theOrder:direction --><div class="panel panel-default ng-scope" ng-repeat="the in thes | filter: query | orderBy: theOrder:direction">
+    <div class="panel-heading" role="tab" id="heading5">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="true" aria-controls="collapse5" class="ng-binding">
+          Green of London
+          <span class="iconAccordion"></span>
+        </a>
+      </h4>
+    </div>
+    <div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5">
+      <div class="panel-body">
+         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 leftSide ng-binding">
+          <strong>Variété : </strong> Thé vert (Earl Grey)
+          <br><strong>Origine :</strong> Chine
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 rightSide">
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/temp.png" alt="Température d\'infusion"> 75°</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/duree.png" alt="Durée d\'infusion">3'</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-tasse.png" alt="Quantité par tasse"></div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-bouilloire.png" alt="Quantité pour la bouilloire remplie au minimum">10g</div>
+          <div class="itemIcons"><img class="icons jourNuitClass" src="custom/img/" alt="Jour" title="jourNuit1"></div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ng-binding"><strong>Description '+whoDesc}} :</strong> Green of London est un thé parfumé remarquable de finesse et d’équilibre. Il est composé d’un très grand thé vert de Chine, d’une bergamote fraîche et délicate, et de pétales de mauve et bleuet. Un Earl Grey d’exception, enfin disponible sur une base de thé vert !</div>
+      </div>
+    </div>
+  </div><!-- end ngRepeat: the in thes | filter: query | orderBy: theOrder:direction --><div class="panel panel-default ng-scope" ng-repeat="the in thes | filter: query | orderBy: theOrder:direction">
+    <div class="panel-heading" role="tab" id="heading6">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse6" aria-expanded="true" aria-controls="collapse6" class="ng-binding">
+          Goût Russe 7 agrumes
+          <span class="iconAccordion"></span>
+        </a>
+      </h4>
+    </div>
+    <div id="collapse6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading6">
+      <div class="panel-body">
+         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 leftSide ng-binding">
+          <strong>Variété : </strong> Thé noir
+          <br><strong>Origine :</strong> Géorgie
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 rightSide">
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/temp.png" alt="Température d\'infusion"> 95°</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/duree.png" alt="Durée d\'infusion">4-5'</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-tasse.png" alt="Quantité par tasse"></div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-bouilloire.png" alt="Quantité pour la bouilloire remplie au minimum">10g</div>
+          <div class="itemIcons"><img class="icons jourNuitClass" src="custom/img/" alt="Jour" title="jourNuit1"></div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ng-binding"><strong>Description '+whoDesc}} :</strong> Superbe mélange de thés noirs et d'agrumes, évoquant le citron, citron vert, orange douce, orange amère, pamplemousse, bergamote et mandarine. Créé par Palais des Thés dans ses premières années, ce cocktail de 7 agrumes a été ensuite décliné sur d'autres bases de thé en référence à la spécialité slave et son goût russe parfumé. Différents des thés qui poussent en Géorgie, les Goûts russes sont les thés consommés régulièrement en Russie depuis le XVII ème siècle. A l'origine, mélanges de thés noirs chinois, les thés consommés par les Russes se diversifient avec l'arrivée, à la fin du XIX ème siècle, des thés de l'Inde, Darjeeling notamment, à la cour de Russie. On a pris depuis l'habitude d'appeler Goût Russe, tout mélange de différents thés noirs chinois et de Darjeeling, parfumé ou non avec des essences naturelles d'agrumes.</div>
+      </div>
+    </div>
+  </div><!-- end ngRepeat: the in thes | filter: query | orderBy: theOrder:direction --><div class="panel panel-default ng-scope" ng-repeat="the in thes | filter: query | orderBy: theOrder:direction">
+    <div class="panel-heading" role="tab" id="heading7">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse7" aria-expanded="true" aria-controls="collapse7" class="ng-binding">
+          Thé des Concubines
+          <span class="iconAccordion"></span>
+        </a>
+      </h4>
+    </div>
+    <div id="collapse7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading7">
+      <div class="panel-body">
+         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 leftSide ng-binding">
+          <strong>Variété : </strong> Thé noir
+          <br><strong>Origine :</strong> Chine
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 rightSide">
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/temp.png" alt="Température d\'infusion"> 95°</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/duree.png" alt="Durée d\'infusion">4-5'</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-tasse.png" alt="Quantité par tasse"></div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-bouilloire.png" alt="Quantité pour la bouilloire remplie au minimum">10g</div>
+          <div class="itemIcons"><img class="icons jourNuitClass" src="custom/img/" alt="Jour" title="jourNuit1"></div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ng-binding"><strong>Description '+whoDesc}} :</strong> En créant le Thé des Concubines, Palais des Thés a souhaité restituer l'ambiance feutrée d'une maison de thé chinoise. Thé rare et doux, le Thé des Concubines est un mélange raffiné et délicat de thés verts et noirs de Chine, agrémenté de pétales de rose et de morceaux de fruits, aux notes fruitées et gourmandes de cerise, de mangue et de vanille.</div>
+      </div>
+    </div>
+  </div><!-- end ngRepeat: the in thes | filter: query | orderBy: theOrder:direction --><div class="panel panel-default ng-scope" ng-repeat="the in thes | filter: query | orderBy: theOrder:direction">
+    <div class="panel-heading" role="tab" id="heading8">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse8" aria-expanded="true" aria-controls="collapse8" class="ng-binding">
+          Thé du Hammam
+          <span class="iconAccordion"></span>
+        </a>
+      </h4>
+    </div>
+    <div id="collapse8" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading8">
+      <div class="panel-body">
+         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 leftSide ng-binding">
+          <strong>Variété : </strong> Thé vert
+          <br><strong>Origine :</strong> Turquie
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 rightSide">
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/temp.png" alt="Température d\'infusion"> 75°</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/duree.png" alt="Durée d\'infusion">3'</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-tasse.png" alt="Quantité par tasse"></div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-bouilloire.png" alt="Quantité pour la bouilloire remplie au minimum">10g</div>
+          <div class="itemIcons"><img class="icons jourNuitClass" src="custom/img/" alt="Jour" title="jourNuit1"></div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ng-binding"><strong>Description '+whoDesc}} :</strong> Inspiré d'une recette turque à base de thé vert, c'est un délicieux mélange fruité évoquant les aromates qui parfument le hammam : rose, datte verte, fruits rouges et fleur d'oranger. Il est agrémenté, dans la plus pure tradition orientale, de pétales de fleurs. Sa fragrance extraordinaire naît de la subtile association du thé vert de Chine, réputé pour sa fraîcheur et ses vertus désaltérantes, et des parfums gourmands des fruits.</div>
+      </div>
+    </div>
+  </div><!-- end ngRepeat: the in thes | filter: query | orderBy: theOrder:direction --><div class="panel panel-default ng-scope" ng-repeat="the in thes | filter: query | orderBy: theOrder:direction">
+    <div class="panel-heading" role="tab" id="heading9">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse9" aria-expanded="true" aria-controls="collapse9" class="ng-binding">
+          Thé des Lords
+          <span class="iconAccordion"></span>
+        </a>
+      </h4>
+    </div>
+    <div id="collapse9" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading9">
+      <div class="panel-body">
+         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 leftSide ng-binding">
+          <strong>Variété : </strong> 
+          <br><strong>Origine :</strong> 
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 rightSide">
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/temp.png" alt="Température d\'infusion"> 90°</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/duree.png" alt="Durée d\'infusion">4-5'</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-tasse.png" alt="Quantité par tasse"></div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-bouilloire.png" alt="Quantité pour la bouilloire remplie au minimum">10g</div>
+          <div class="itemIcons"><img class="icons jourNuitClass" src="custom/img/" alt="Jour" title="jourNuit1"></div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ng-binding"><strong>Description '+whoDesc}} :</strong> Le Thé des Lords est un très bel Earl Grey au parfum de bergamote bien prononcé, agrémenté de pétales de carthame. Le plus bergamoté de tous les Earl Grey à déguster tout au long de la journée.</div>
+      </div>
+    </div>
+  </div><!-- end ngRepeat: the in thes | filter: query | orderBy: theOrder:direction --><div class="panel panel-default ng-scope" ng-repeat="the in thes | filter: query | orderBy: theOrder:direction">
+    <div class="panel-heading" role="tab" id="heading10">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse10" aria-expanded="true" aria-controls="collapse10" class="ng-binding">
+          Thé des Songes
+          <span class="iconAccordion"></span>
+        </a>
+      </h4>
+    </div>
+    <div id="collapse10" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading10">
+      <div class="panel-body">
+         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 leftSide ng-binding">
+          <strong>Variété : </strong> Oolong
+          <br><strong>Origine :</strong> 
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 rightSide">
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/temp.png" alt="Température d\'infusion"> 95°</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/duree.png" alt="Durée d\'infusion">5-7'</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-tasse.png" alt="Quantité par tasse"></div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-bouilloire.png" alt="Quantité pour la bouilloire remplie au minimum">10g</div>
+          <div class="itemIcons"><img class="icons jourNuitClass" src="custom/img/" alt="Nuit" title="jourNuit2"></div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ng-binding"><strong>Description '+whoDesc}} :</strong> Le Thé des Songes est un délicieux Oolong (thé semi-fermenté) , parfumé aux fleurs et fruits exotiques. Il est agrémenté de pétales de fleurs (carthame, lavande et mauve) ainsi que d’écorce de citron.</div>
+      </div>
+    </div>
+  </div><!-- end ngRepeat: the in thes | filter: query | orderBy: theOrder:direction --><div class="panel panel-default ng-scope" ng-repeat="the in thes | filter: query | orderBy: theOrder:direction">
+    <div class="panel-heading" role="tab" id="heading11">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse11" aria-expanded="true" aria-controls="collapse11" class="ng-binding">
+          Thé des Alizés
+          <span class="iconAccordion"></span>
+        </a>
+      </h4>
+    </div>
+    <div id="collapse11" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading11">
+      <div class="panel-body">
+         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 leftSide ng-binding">
+          <strong>Variété : </strong> Thé vert
+          <br><strong>Origine :</strong> 
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 rightSide">
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/temp.png" alt="Température d\'infusion"> 75°</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/duree.png" alt="Durée d\'infusion">3'</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-tasse.png" alt="Quantité par tasse"></div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-bouilloire.png" alt="Quantité pour la bouilloire remplie au minimum">10g</div>
+          <div class="itemIcons"><img class="icons jourNuitClass" src="custom/img/" alt="Jour" title="jourNuit1"></div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ng-binding"><strong>Description '+whoDesc}} :</strong> Le Thé des Alizés est un thé vert parfumé aux fruits exotiques. Il évoque la pêche blanche, le kiwi, la pastèque… Superbe équilibre du thé vert et de la fraîcheur des fruits pour un voyage vers les mers turquoises du sud. Agrémenté de pétales de fleurs, il se déguste aussi bien chaud que glacé.</div>
+      </div>
+    </div>
+  </div><!-- end ngRepeat: the in thes | filter: query | orderBy: theOrder:direction --><div class="panel panel-default ng-scope" ng-repeat="the in thes | filter: query | orderBy: theOrder:direction">
+    <div class="panel-heading" role="tab" id="heading12">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse12" aria-expanded="true" aria-controls="collapse12" class="ng-binding">
+          Thé des Vahinés
+          <span class="iconAccordion"></span>
+        </a>
+      </h4>
+    </div>
+    <div id="collapse12" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading12">
+      <div class="panel-body">
+         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 leftSide ng-binding">
+          <strong>Variété : </strong> Thé vert
+          <br><strong>Origine :</strong> 
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 rightSide">
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/temp.png" alt="Température d\'infusion"> 75°</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/duree.png" alt="Durée d\'infusion">3'</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-tasse.png" alt="Quantité par tasse"></div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-bouilloire.png" alt="Quantité pour la bouilloire remplie au minimum">10g</div>
+          <div class="itemIcons"><img class="icons jourNuitClass" src="custom/img/" alt="Jour" title="jourNuit1"></div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ng-binding"><strong>Description '+whoDesc}} :</strong> Création exclusive de Palais des Thés, le Thé des Vahinés est une recette gourmande qui marie les parfums de la vanille, de l’amande et des pétales de souci. Déclinée sur base de thé vert, cette nouvelle recette est agrémentée de boutons de rose. Le Thé des Vahinés – Thé vert est un plaisir des sens suave et chaleureux, un beau thé au bouquet fleuri évoquant les îles.</div>
+      </div>
+    </div>
+  </div><!-- end ngRepeat: the in thes | filter: query | orderBy: theOrder:direction --><div class="panel panel-default ng-scope" ng-repeat="the in thes | filter: query | orderBy: theOrder:direction">
+    <div class="panel-heading" role="tab" id="heading13">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse13" aria-expanded="true" aria-controls="collapse13" class="ng-binding">
+          Rooibos du Hammam
+          <span class="iconAccordion"></span>
+        </a>
+      </h4>
+    </div>
+    <div id="collapse13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading13">
+      <div class="panel-body">
+         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 leftSide ng-binding">
+          <strong>Variété : </strong> Rooiboos
+          <br><strong>Origine :</strong> 
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 rightSide">
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/temp.png" alt="Température d\'infusion"> 95°</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/duree.png" alt="Durée d\'infusion">5'</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-tasse.png" alt="Quantité par tasse"></div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-bouilloire.png" alt="Quantité pour la bouilloire remplie au minimum">10g</div>
+          <div class="itemIcons"><img class="icons jourNuitClass" src="custom/img/" alt="Nuit" title="jourNuit2"></div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ng-binding"><strong>Description '+whoDesc}} :</strong> Inspiré d'une recette traditionnelle turque, le Thé du Hammam est une création de Palais des Thés aux accents fruités et gourmands. Cette nouvelle recette associe avec originalité la pulpe de datte verte et la générosité des fruits rouges à la rondeur du Rooibos.</div>
+      </div>
+    </div>
+  </div><!-- end ngRepeat: the in thes | filter: query | orderBy: theOrder:direction --><div class="panel panel-default ng-scope" ng-repeat="the in thes | filter: query | orderBy: theOrder:direction">
+    <div class="panel-heading" role="tab" id="heading14">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse14" aria-expanded="true" aria-controls="collapse14" class="ng-binding">
+          Litchi, Rose &amp; Framboise
+          <span class="iconAccordion"></span>
+        </a>
+      </h4>
+    </div>
+    <div id="collapse14" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading14">
+      <div class="panel-body">
+         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 leftSide ng-binding">
+          <strong>Variété : </strong> Thé blanc (édition limitée)
+          <br><strong>Origine :</strong> 
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 rightSide">
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/temp.png" alt="Température d\'infusion"> 80°</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/duree.png" alt="Durée d\'infusion">3-5'</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-tasse.png" alt="Quantité par tasse"></div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-bouilloire.png" alt="Quantité pour la bouilloire remplie au minimum">10g</div>
+          <div class="itemIcons"><img class="icons jourNuitClass" src="custom/img/" alt="Jour" title="jourNuit1"></div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ng-binding"><strong>Description '+whoDesc}} :</strong> Merveilleux thé blanc au bouquet floral et fruité, Litchi, Rose et Framboise vous charmera par son mélange raffiné et délicieusement acidulé. Un délice à découvrir et à partager en toute occasion.</div>
+      </div>
+    </div>
+  </div><!-- end ngRepeat: the in thes | filter: query | orderBy: theOrder:direction --><div class="panel panel-default ng-scope" ng-repeat="the in thes | filter: query | orderBy: theOrder:direction">
+    <div class="panel-heading" role="tab" id="heading15">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse15" aria-expanded="true" aria-controls="collapse15" class="ng-binding">
+          Blue of London
+          <span class="iconAccordion"></span>
+        </a>
+      </h4>
+    </div>
+    <div id="collapse15" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading15">
+      <div class="panel-body">
+         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 leftSide ng-binding">
+          <strong>Variété : </strong> Thé noir (Earl Grey)
+          <br><strong>Origine :</strong> 
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 rightSide">
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/temp.png" alt="Température d\'infusion"> 85°</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/duree.png" alt="Durée d\'infusion">4-5'</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-tasse.png" alt="Quantité par tasse"></div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-bouilloire.png" alt="Quantité pour la bouilloire remplie au minimum">10g</div>
+          <div class="itemIcons"><img class="icons jourNuitClass" src="custom/img/" alt="Jour" title="jourNuit1"></div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ng-binding"><strong>Description '+whoDesc}} :</strong> Un des meilleurs thés noirs au monde, le Yunnan, et une bergamote fraîche et délicate, composent un mélange remarquable d'équilibre et de finesse. Blue of London est un Earl Grey d'exception.</div>
+      </div>
+    </div>
+  </div><!-- end ngRepeat: the in thes | filter: query | orderBy: theOrder:direction --><div class="panel panel-default ng-scope" ng-repeat="the in thes | filter: query | orderBy: theOrder:direction">
+    <div class="panel-heading" role="tab" id="heading16">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse16" aria-expanded="true" aria-controls="collapse16" class="ng-binding">
+          Jukro
+          <span class="iconAccordion"></span>
+        </a>
+      </h4>
+    </div>
+    <div id="collapse16" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading16">
+      <div class="panel-body">
+         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 leftSide ng-binding">
+          <strong>Variété : </strong> Thé noir
+          <br><strong>Origine :</strong> Corée, région d’Hadong
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 rightSide">
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/temp.png" alt="Température d\'infusion"> 90°</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/duree.png" alt="Durée d\'infusion">4'</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-tasse.png" alt="Quantité par tasse"></div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-bouilloire.png" alt="Quantité pour la bouilloire remplie au minimum">10g</div>
+          <div class="itemIcons"><img class="icons jourNuitClass" src="custom/img/" alt="Jour/nuit" title="jourNuit3"></div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ng-binding"><strong>Description '+whoDesc}} :</strong> Un thé tout simplement hors du commun. Entièrement récolté et manufacturé à la main, ce cru en provenance de la ferme Jukro fait partie des meilleurs thés noirs produits dans le pays. Le bouquet cacaoté et vanillé évoque la note gourmande des Qimen Mao Feng chinois mais sa puissance, sa richesse et son intensité nous entraînent plutôt vers les meilleurs Oolong sombres de Taïwan. Une expérience de très haute gastronomie ! Entièrement récolté et manufacturé à la main, ce cru en provenance de la ferme Jukro fait partie des meilleurs thés noirs produits dans le pays.</div>
+      </div>
+    </div>
+  </div><!-- end ngRepeat: the in thes | filter: query | orderBy: theOrder:direction --><div class="panel panel-default ng-scope" ng-repeat="the in thes | filter: query | orderBy: theOrder:direction">
+    <div class="panel-heading" role="tab" id="heading17">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse17" aria-expanded="true" aria-controls="collapse17" class="ng-binding">
+          N°25 Thé Blanc
+          <span class="iconAccordion"></span>
+        </a>
+      </h4>
+    </div>
+    <div id="collapse17" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading17">
+      <div class="panel-body">
+         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 leftSide ng-binding">
+          <strong>Variété : </strong> Thé blanc
+          <br><strong>Origine :</strong> Chine
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 rightSide">
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/temp.png" alt="Température d\'infusion"> 75°</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/duree.png" alt="Durée d\'infusion">5-7'</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-tasse.png" alt="Quantité par tasse"></div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-bouilloire.png" alt="Quantité pour la bouilloire remplie au minimum">10g</div>
+          <div class="itemIcons"><img class="icons jourNuitClass" src="custom/img/" alt="Jour" title="jourNuit1"></div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ng-binding"><strong>Description '+whoDesc}} :</strong> Découvrez notre célèbre recette de Noël, le Thé N°25, sur un beau thé blanc de Chine. La fameuse recette du Thé N°25, mélange réconfortant de gousses de vanille, d’amandes, de cannelle, de gingembre, d’écorce d’orange et de zestes de citron, s’associe dans une parfaite harmonie à la délicatesse du thé blanc. Un très beau thé pour un Noël inoubliable !</div>
+      </div>
+    </div>
+  </div><!-- end ngRepeat: the in thes | filter: query | orderBy: theOrder:direction --><div class="panel panel-default ng-scope" ng-repeat="the in thes | filter: query | orderBy: theOrder:direction">
+    <div class="panel-heading" role="tab" id="heading2">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="true" aria-controls="collapse2" class="ng-binding">
+          Perles de Jasmin
+          <span class="iconAccordion"></span>
+        </a>
+      </h4>
+    </div>
+    <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
+      <div class="panel-body">
+         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 leftSide ng-binding">
+          <strong>Variété : </strong> Thé vert (Grand cru)
+          <br><strong>Origine :</strong> Chine
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 rightSide">
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/temp.png" alt="Température d\'infusion"> 75°</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/duree.png" alt="Durée d\'infusion">3-4'</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-tasse.png" alt="Quantité par tasse"></div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-bouilloire.png" alt="Quantité pour la bouilloire remplie au minimum">10g</div>
+          <div class="itemIcons"><img class="icons jourNuitClass" src="custom/img/" alt="Jour" title="jourNuit1"></div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ng-binding"><strong>Description '+whoDesc}} :</strong> Très rares et disponibles de façon très irrégulière, les Perles de Jasmin sont produites à partir de feuilles de thé vert de la meilleure qualité. Elles sont façonnées à la main jusqu'à devenir de petites billes rondes. Recroquevillée sur elle-même, la feuille de thé conserve ainsi le parfum délicat de la fleur de jasmin qui a servi à la parfumer. Ce thé spectaculaire donne une infusion de la plus grande qualité : la douceur du thé vert s'harmonise à merveille avec la subtilité du jasmin. Au palais, la rondeur, le velouté de la liqueur rappellent ceux de la perle de thé. Un must du thé au jasmin !</div>
+      </div>
+    </div>
+  </div><!-- end ngRepeat: the in thes | filter: query | orderBy: theOrder:direction --><div class="panel panel-default ng-scope" ng-repeat="the in thes | filter: query | orderBy: theOrder:direction">
+    <div class="panel-heading" role="tab" id="heading19">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse19" aria-expanded="true" aria-controls="collapse19" class="ng-binding">
+          Vanille des Îles
+          <span class="iconAccordion"></span>
+        </a>
+      </h4>
+    </div>
+    <div id="collapse19" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading19">
+      <div class="panel-body">
+         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 leftSide ng-binding">
+          <strong>Variété : </strong> Thé blanc (édition limitée)
+          <br><strong>Origine :</strong> Madagascar
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 rightSide">
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/temp.png" alt="Température d\'infusion"> 80°</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/duree.png" alt="Durée d\'infusion">3-5'</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-tasse.png" alt="Quantité par tasse"></div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-bouilloire.png" alt="Quantité pour la bouilloire remplie au minimum">10g</div>
+          <div class="itemIcons"><img class="icons jourNuitClass" src="custom/img/" alt="Jour" title="jourNuit1"></div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ng-binding"><strong>Description '+whoDesc}} :</strong> Découvrez votre nouveau cadeau Théophile pour Noël : l’Édition limitée Vanille des Îles ! Délicat thé blanc associé à une vanille naturelle d’exception en provenance de Madagascar.  Pour un moment d’évasion gourmand au cœur des îles.</div>
+      </div>
+    </div>
+  </div><!-- end ngRepeat: the in thes | filter: query | orderBy: theOrder:direction --><div class="panel panel-default ng-scope" ng-repeat="the in thes | filter: query | orderBy: theOrder:direction">
+    <div class="panel-heading" role="tab" id="heading20">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse20" aria-expanded="true" aria-controls="collapse20" class="ng-binding">
+          Aiguilles d'Argent
+          <span class="iconAccordion"></span>
+        </a>
+      </h4>
+    </div>
+    <div id="collapse20" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading20">
+      <div class="panel-body">
+         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 leftSide ng-binding">
+          <strong>Variété : </strong> Thé blanc (Grand Cru)
+          <br><strong>Origine :</strong> Chine, Fujian
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 rightSide">
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/temp.png" alt="Température d\'infusion"> 70°</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/duree.png" alt="Durée d\'infusion">8-12'</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-tasse.png" alt="Quantité par tasse"></div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-bouilloire.png" alt="Quantité pour la bouilloire remplie au minimum">10g</div>
+          <div class="itemIcons"><img class="icons jourNuitClass" src="custom/img/" alt="Jour" title="jourNuit1"></div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ng-binding"><strong>Description '+whoDesc}} :</strong> Très réputé sous la dynastie Song, le Yin Zen (Aiguille d’Argent) est un thé blanc sujet à de nombreuses légendes telles que sa récolte les nuits de pleine lune ou qu’une partie de celle-ci était réservée exclusivement à l’empereur. Ce thé de Chine jouit d’un grand prestige tant par les soins apportés à sa cueillette que par la finesse unique des parfums de ses bourgeons argentés. D’une grande subtilité, ce thé spectaculaire est à préparer avec la plus grande attention pour en apprécier toutes ses qualités gustatives.</div>
+      </div>
+    </div>
+  </div><!-- end ngRepeat: the in thes | filter: query | orderBy: theOrder:direction --><div class="panel panel-default ng-scope" ng-repeat="the in thes | filter: query | orderBy: theOrder:direction">
+    <div class="panel-heading" role="tab" id="heading21">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse21" aria-expanded="true" aria-controls="collapse21" class="ng-binding">
+          Rohini DJ 8 'Rose'
+          <span class="iconAccordion"></span>
+        </a>
+      </h4>
+    </div>
+    <div id="collapse21" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading21">
+      <div class="panel-body">
+         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 leftSide ng-binding">
+          <strong>Variété : </strong> Thé noir
+          <br><strong>Origine :</strong> Inde, Darjeeling, Rohini
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 rightSide">
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/temp.png" alt="Température d\'infusion"> 85°</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/duree.png" alt="Durée d\'infusion">3,45'</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-tasse.png" alt="Quantité par tasse"></div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-bouilloire.png" alt="Quantité pour la bouilloire remplie au minimum">10g</div>
+          <div class="itemIcons"><img class="icons jourNuitClass" src="custom/img/" alt="Jour" title="jourNuit1"></div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ng-binding"><strong>Description '+whoDesc}} :</strong> Manufacturé dans un jardin que nous connaissons bien désormais, ce lot de Rohini présente une belle texture souple en attaque, suivie d’une fine astringence en longueur, qui dévoile ainsi d’agréables notes rosées, chocolatées et végétales très accessibles. Rohini fait partie des cinq villages qui composent le district de Kurseong à Darjeeling (Bengale-Occidental). Constitué de plus de 1400 hectares de théiers, il était considéré comme le plus grand jardin de Darjeeling avant la guerre d’Indochine, mais l’installation d’un camp militaire du nom de « Khaprail » obligea l’arrachage de quasiment 80% des plants de théiers. Le jardin fut alors fermé durant plus de 30 ans, puis fut rouvert avec la plantation d’une centaine de théiers. Depuis, le jardin continue son activité : on y plante régulièrement des théiers par petites parcelles et on consolide le sol. Chaque année, on y ajoute près de 100 000 plants. </div>
+      </div>
+    </div>
+  </div><!-- end ngRepeat: the in thes | filter: query | orderBy: theOrder:direction --><div class="panel panel-default ng-scope" ng-repeat="the in thes | filter: query | orderBy: theOrder:direction">
+    <div class="panel-heading" role="tab" id="heading22">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse22" aria-expanded="true" aria-controls="collapse22" class="ng-binding">
+          La Menthe Glaciale
+          <span class="iconAccordion"></span>
+        </a>
+      </h4>
+    </div>
+    <div id="collapse22" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading22">
+      <div class="panel-body">
+         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 leftSide ng-binding">
+          <strong>Variété : </strong> Thé vert (Plaisirs Purs)
+          <br><strong>Origine :</strong> Chine
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 rightSide">
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/temp.png" alt="Température d\'infusion"> 75°</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/duree.png" alt="Durée d\'infusion">3'</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-tasse.png" alt="Quantité par tasse"></div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-bouilloire.png" alt="Quantité pour la bouilloire remplie au minimum">10g</div>
+          <div class="itemIcons"><img class="icons jourNuitClass" src="custom/img/" alt="Jour" title="jourNuit1"></div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ng-binding"><strong>Description '+whoDesc}} :</strong> Ce thé marie les parfums frais, poivrés des feuilles de menthe avec les notes végétales d’un très beau thé vert aux longues feuilles, récolté en Chine. Découvrez un thé parfumé de très haute qualité autour d’un ingrédient unique emprunté à la nature : la menthe. Il marie les parfums frais, poivrés des feuilles de menthe avec les notes végétales d’un très beau thé vert aux longues feuilles, récolté en Chine. Idéal pour se rafraîchir !</div>
+      </div>
+    </div>
+  </div><!-- end ngRepeat: the in thes | filter: query | orderBy: theOrder:direction --><div class="panel panel-default ng-scope" ng-repeat="the in thes | filter: query | orderBy: theOrder:direction">
+    <div class="panel-heading" role="tab" id="heading23">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse23" aria-expanded="true" aria-controls="collapse23" class="ng-binding">
+          Rooibos des Lords
+          <span class="iconAccordion"></span>
+        </a>
+      </h4>
+    </div>
+    <div id="collapse23" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading23">
+      <div class="panel-body">
+         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 leftSide ng-binding">
+          <strong>Variété : </strong> Rooibos (Earl Grey)
+          <br><strong>Origine :</strong> 
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 rightSide">
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/temp.png" alt="Température d\'infusion"> 95°</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/duree.png" alt="Durée d\'infusion">5'</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-tasse.png" alt="Quantité par tasse"></div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-bouilloire.png" alt="Quantité pour la bouilloire remplie au minimum">10g</div>
+          <div class="itemIcons"><img class="icons jourNuitClass" src="custom/img/" alt="Nuit" title="jourNuit2"></div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ng-binding"><strong>Description '+whoDesc}} :</strong> Le Palais des Thés décline son Earl Grey favori, le Thé des Lords, sur une base de Rooibos. Le mélange, agrémenté de pétales rouge, associe harmonieusement la puissance citronnée de notre bergamote et la rondeur du Rooibos. Naturellement sans théine, il est idéal le soir pour les inconditionnels de Earl Grey.</div>
+      </div>
+    </div>
+  </div><!-- end ngRepeat: the in thes | filter: query | orderBy: theOrder:direction --><div class="panel panel-default ng-scope" ng-repeat="the in thes | filter: query | orderBy: theOrder:direction">
+    <div class="panel-heading" role="tab" id="heading24">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse24" aria-expanded="true" aria-controls="collapse24" class="ng-binding">
+          Spring of London
+          <span class="iconAccordion"></span>
+        </a>
+      </h4>
+    </div>
+    <div id="collapse24" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading24">
+      <div class="panel-body">
+         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 leftSide ng-binding">
+          <strong>Variété : </strong> Thé vert
+          <br><strong>Origine :</strong> 
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 rightSide">
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/temp.png" alt="Température d\'infusion"> 85°</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/duree.png" alt="Durée d\'infusion">3-5'</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-tasse.png" alt="Quantité par tasse"></div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-bouilloire.png" alt="Quantité pour la bouilloire remplie au minimum">10g</div>
+          <div class="itemIcons"><img class="icons jourNuitClass" src="custom/img/" alt="Jour" title="jourNuit1"></div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ng-binding"><strong>Description '+whoDesc}} :</strong> Le Earl Grey est un grand classique anglais, depuis que Charles Grey, comte (earl en anglais) de Falodon et ministre des Affaires étrangères du Royaume britannique au milieu du XIX ème siècle, reçut d'un mandarin chinois une vieille recette consistant à aromatiser son thé avec de la bergamote. La qualité d’un Earl Grey est fonction de la qualité de la bergamote utilisée, celles de Calabre et de Sicile sont les plus réputées. Un Earl Grey d'exception : le Spring of London est un mélange remarquable d'équilibre et de finesse d’un des meilleurs thés au monde, le Darjeeling de printemps, et d’une bergamote fraîche et délicate, originaire de Calabre. Ce thé noir complète une famille (Blue of London et Green of London) qui rencontre un vrai succès auprès des inconditionnels de Earl Grey. Il permet également d’initier au Darjeeling de printemps, thé rare d’une grande finesse. Le Spring of London accompagne ainsi les amateurs de Earl Grey vers des thés de qualité supérieure.</div>
+      </div>
+    </div>
+  </div><!-- end ngRepeat: the in thes | filter: query | orderBy: theOrder:direction --><div class="panel panel-default ng-scope" ng-repeat="the in thes | filter: query | orderBy: theOrder:direction">
+    <div class="panel-heading" role="tab" id="heading25">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse25" aria-expanded="true" aria-controls="collapse25" class="ng-binding">
+          N°25 Cannelle &amp; Orange
+          <span class="iconAccordion"></span>
+        </a>
+      </h4>
+    </div>
+    <div id="collapse25" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading25">
+      <div class="panel-body">
+         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 leftSide ng-binding">
+          <strong>Variété : </strong> Thé vert
+          <br><strong>Origine :</strong> 
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 rightSide">
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/temp.png" alt="Température d\'infusion"> 75°</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/duree.png" alt="Durée d\'infusion">3'</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-tasse.png" alt="Quantité par tasse"></div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-bouilloire.png" alt="Quantité pour la bouilloire remplie au minimum">10g</div>
+          <div class="itemIcons"><img class="icons jourNuitClass" src="custom/img/" alt="Jour" title="jourNuit1"></div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ng-binding"><strong>Description '+whoDesc}} :</strong> Inspiré de la recette de la pomme d’ambre qui illumine et parfume chaleureusement les fêtes de Noël, le Thé N°25 Cannelle &amp; Orange est une édition limitée de notre célèbre recette de Noël, le Thé N°25. Sur une base de thé vert, les bâtons de cannelle se mêlent aux écorces d’orange, aux morceaux d’amande et aux pétales de vanille, pour un résultat résolument fruité et gourmand. Un thé festif, réconfortant et chaleureux, à déguster, à offrir et à partager en toute occasion !</div>
+      </div>
+    </div>
+  </div><!-- end ngRepeat: the in thes | filter: query | orderBy: theOrder:direction --><div class="panel panel-default ng-scope" ng-repeat="the in thes | filter: query | orderBy: theOrder:direction">
+    <div class="panel-heading" role="tab" id="heading26">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse26" aria-expanded="true" aria-controls="collapse26" class="ng-binding">
+          Huo Shan Huang Ya
+          <span class="iconAccordion"></span>
+        </a>
+      </h4>
+    </div>
+    <div id="collapse26" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading26">
+      <div class="panel-body">
+         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 leftSide ng-binding">
+          <strong>Variété : </strong> Thé jaune
+          <br><strong>Origine :</strong> 
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 rightSide">
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/temp.png" alt="Température d\'infusion"> 70°</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/duree.png" alt="Durée d\'infusion">5-7'</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-tasse.png" alt="Quantité par tasse"></div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-bouilloire.png" alt="Quantité pour la bouilloire remplie au minimum">10g</div>
+          <div class="itemIcons"><img class="icons jourNuitClass" src="custom/img/" alt="Jour" title="jourNuit1"></div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ng-binding"><strong>Description '+whoDesc}} :</strong> Arômes de châtaigne et de miel gourmand</div>
+      </div>
+    </div>
+  </div><!-- end ngRepeat: the in thes | filter: query | orderBy: theOrder:direction --><div class="panel panel-default ng-scope" ng-repeat="the in thes | filter: query | orderBy: theOrder:direction">
+    <div class="panel-heading" role="tab" id="heading27">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse27" aria-expanded="true" aria-controls="collapse27" class="ng-binding">
+          Hao Hao
+          <span class="iconAccordion"></span>
+        </a>
+      </h4>
+    </div>
+    <div id="collapse27" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading27">
+      <div class="panel-body">
+         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 leftSide ng-binding">
+          <strong>Variété : </strong> Infusion
+          <br><strong>Origine :</strong> 
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 rightSide">
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/temp.png" alt="Température d\'infusion"> 75°</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/duree.png" alt="Durée d\'infusion">5'</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-tasse.png" alt="Quantité par tasse"></div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-bouilloire.png" alt="Quantité pour la bouilloire remplie au minimum">10g</div>
+          <div class="itemIcons"><img class="icons jourNuitClass" src="custom/img/" alt="Jour" title="jourNuit1"></div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ng-binding"><strong>Description '+whoDesc}} :</strong> Fabuleuse infusion de bambous, mélangés avec les subtiles saveurs de la pomme, l'orange, la cannelle et l'amande. Des pétales de roses rehaussent cette unique et très équilibrée</div>
+      </div>
+    </div>
+  </div><!-- end ngRepeat: the in thes | filter: query | orderBy: theOrder:direction --><div class="panel panel-default ng-scope" ng-repeat="the in thes | filter: query | orderBy: theOrder:direction">
+    <div class="panel-heading" role="tab" id="heading28">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse28" aria-expanded="true" aria-controls="collapse28" class="ng-binding">
+          Jardin Tropical
+          <span class="iconAccordion"></span>
+        </a>
+      </h4>
+    </div>
+    <div id="collapse28" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading28">
+      <div class="panel-body">
+         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 leftSide ng-binding">
+          <strong>Variété : </strong> Infusion
+          <br><strong>Origine :</strong> 
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 rightSide">
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/temp.png" alt="Température d\'infusion"> 90°</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/duree.png" alt="Durée d\'infusion">4-5'</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-tasse.png" alt="Quantité par tasse"></div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-bouilloire.png" alt="Quantité pour la bouilloire remplie au minimum">10g</div>
+          <div class="itemIcons"><img class="icons jourNuitClass" src="custom/img/" alt="Jour" title="jourNuit1"></div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ng-binding"><strong>Description '+whoDesc}} :</strong> Excellent en thé froid également (un sachet rempli, un thermo Starbucks pendant 1h)</div>
+      </div>
+    </div>
+  </div><!-- end ngRepeat: the in thes | filter: query | orderBy: theOrder:direction --><div class="panel panel-default ng-scope" ng-repeat="the in thes | filter: query | orderBy: theOrder:direction">
+    <div class="panel-heading" role="tab" id="heading29">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse29" aria-expanded="true" aria-controls="collapse29" class="ng-binding">
+          Jardin Suspendu
+          <span class="iconAccordion"></span>
+        </a>
+      </h4>
+    </div>
+    <div id="collapse29" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading29">
+      <div class="panel-body">
+         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 leftSide ng-binding">
+          <strong>Variété : </strong> Infusion
+          <br><strong>Origine :</strong> 
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 rightSide">
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/temp.png" alt="Température d\'infusion"> 90°</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/duree.png" alt="Durée d\'infusion">4-5'</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-tasse.png" alt="Quantité par tasse"></div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-bouilloire.png" alt="Quantité pour la bouilloire remplie au minimum">10g</div>
+          <div class="itemIcons"><img class="icons jourNuitClass" src="custom/img/" alt="Jour/nuit" title="jourNuit3"></div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ng-binding"><strong>Description '+whoDesc}} :</strong> Infusion gourmande aux fruits et plantes, c'est un mélange de pomme, d'hibiscus, de bergamote et de fleurs qui évoque une brise douce et légère. Totalement dépourvu de théine, il se déguste aussi bien chaud que glacé (un sachet rempli, un thermo Starbucks pendant 1h).</div>
+      </div>
+    </div>
+  </div><!-- end ngRepeat: the in thes | filter: query | orderBy: theOrder:direction --><div class="panel panel-default ng-scope" ng-repeat="the in thes | filter: query | orderBy: theOrder:direction">
+    <div class="panel-heading" role="tab" id="heading30">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse30" aria-expanded="true" aria-controls="collapse30" class="ng-binding">
+          Jardin Fruité
+          <span class="iconAccordion"></span>
+        </a>
+      </h4>
+    </div>
+    <div id="collapse30" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading30">
+      <div class="panel-body">
+         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 leftSide ng-binding">
+          <strong>Variété : </strong> Infusion
+          <br><strong>Origine :</strong> 
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 rightSide">
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/temp.png" alt="Température d\'infusion"> 90°</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/duree.png" alt="Durée d\'infusion">4-5'</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-tasse.png" alt="Quantité par tasse"></div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-bouilloire.png" alt="Quantité pour la bouilloire remplie au minimum">10g</div>
+          <div class="itemIcons"><img class="icons jourNuitClass" src="custom/img/" alt="Jour/nuit" title="jourNuit3"></div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ng-binding"><strong>Description '+whoDesc}} :</strong> Infusion gourmande aux fruits et plantes, c'est un mélange de baies de goji, de fruits rouges, de dattes et de kiwi qui évoque la gourmandise des vergers ensoleillés. Totalement dépourvu de théine, il se déguste aussi bien chaud que glacé (un sachet rempli, un thermo Starbucks pendant 1h).</div>
+      </div>
+    </div>
+  </div><!-- end ngRepeat: the in thes | filter: query | orderBy: theOrder:direction --><div class="panel panel-default ng-scope" ng-repeat="the in thes | filter: query | orderBy: theOrder:direction">
+    <div class="panel-heading" role="tab" id="heading31">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse31" aria-expanded="true" aria-controls="collapse31" class="ng-binding">
+          Jardin d'eau
+          <span class="iconAccordion"></span>
+        </a>
+      </h4>
+    </div>
+    <div id="collapse31" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading31">
+      <div class="panel-body">
+         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 leftSide ng-binding">
+          <strong>Variété : </strong> Infusion
+          <br><strong>Origine :</strong> 
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 rightSide">
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/temp.png" alt="Température d\'infusion"> 90°</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/duree.png" alt="Durée d\'infusion">4-5'</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-tasse.png" alt="Quantité par tasse"></div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-bouilloire.png" alt="Quantité pour la bouilloire remplie au minimum">10g</div>
+          <div class="itemIcons"><img class="icons jourNuitClass" src="custom/img/" alt="Jour/nuit" title="jourNuit3"></div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ng-binding"><strong>Description '+whoDesc}} :</strong> Infusion gourmande aux fruits et plantes, c'est un mélange aux saveurs de melon, de papaye et de baies de goji qui évoque la fraicheur de la rosée. Totalement dépourvu de théine, il se déguste aussi bien chaud que glacé (un sachet rempli, un thermo Starbucks pendant 1h).</div>
+      </div>
+    </div>
+  </div><!-- end ngRepeat: the in thes | filter: query | orderBy: theOrder:direction --><div class="panel panel-default ng-scope" ng-repeat="the in thes | filter: query | orderBy: theOrder:direction">
+    <div class="panel-heading" role="tab" id="heading32">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse32" aria-expanded="true" aria-controls="collapse32" class="ng-binding">
+          Tisane des petits bonheurs
+          <span class="iconAccordion"></span>
+        </a>
+      </h4>
+    </div>
+    <div id="collapse32" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading32">
+      <div class="panel-body">
+         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 leftSide ng-binding">
+          <strong>Variété : </strong> Tisane
+          <br><strong>Origine :</strong> 
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 rightSide">
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/temp.png" alt="Température d\'infusion"> </div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/duree.png" alt="Durée d\'infusion">5'</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-tasse.png" alt="Quantité par tasse"></div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-bouilloire.png" alt="Quantité pour la bouilloire remplie au minimum">10g</div>
+          <div class="itemIcons"><img class="icons jourNuitClass" src="custom/img/" alt="Nuit" title="jourNuit2"></div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ng-binding"><strong>Description '+whoDesc}} :</strong> Tisane sans théine aux saveurs citronnées, c'est un mélange de verveine, mélisse, citronnelle, tulsi (basilic royal), honey-bush, morceaux de pomme, canelle et pétales de souci. Fraiche et digeste, cette infusion peut se boire à toute heure.</div>
+      </div>
+    </div>
+  </div><!-- end ngRepeat: the in thes | filter: query | orderBy: theOrder:direction --><div class="panel panel-default ng-scope" ng-repeat="the in thes | filter: query | orderBy: theOrder:direction">
+    <div class="panel-heading" role="tab" id="heading33">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse33" aria-expanded="true" aria-controls="collapse33" class="ng-binding">
+          Shira Sakura
+          <span class="iconAccordion"></span>
+        </a>
+      </h4>
+    </div>
+    <div id="collapse33" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading33">
+      <div class="panel-body">
+         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 leftSide ng-binding">
+          <strong>Variété : </strong> Thé blanc
+          <br><strong>Origine :</strong> Chine
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 rightSide">
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/temp.png" alt="Température d\'infusion"> 80-90°</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/duree.png" alt="Durée d\'infusion">3-5'</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-tasse.png" alt="Quantité par tasse"></div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-bouilloire.png" alt="Quantité pour la bouilloire remplie au minimum">10g</div>
+          <div class="itemIcons"><img class="icons jourNuitClass" src="custom/img/" alt="Jour" title="jourNuit1"></div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ng-binding"><strong>Description '+whoDesc}} :</strong> Mélange aux saveurs florales légèrement sucrées de fleurs de cerisier. Sur une base de thé blanc de Chine et agrémenté de fleurs de thé, de pétales de rose et de bourgeons de thé blanc. Il vous procurera une tasse cristalline, suave et veloutée.</div>
+      </div>
+    </div>
+  </div><!-- end ngRepeat: the in thes | filter: query | orderBy: theOrder:direction --><div class="panel panel-default ng-scope" ng-repeat="the in thes | filter: query | orderBy: theOrder:direction">
+    <div class="panel-heading" role="tab" id="heading34">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse34" aria-expanded="true" aria-controls="collapse34" class="ng-binding">
+          Green Tonic
+          <span class="iconAccordion"></span>
+        </a>
+      </h4>
+    </div>
+    <div id="collapse34" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading34">
+      <div class="panel-body">
+         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 leftSide ng-binding">
+          <strong>Variété : </strong> Thé vert
+          <br><strong>Origine :</strong> Chine
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 rightSide">
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/temp.png" alt="Température d\'infusion"> </div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/duree.png" alt="Durée d\'infusion">2' 30</div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-tasse.png" alt="Quantité par tasse"></div>
+          <div class="itemIcons ng-binding"><img class="icons" src="custom/img/quantite-bouilloire.png" alt="Quantité pour la bouilloire remplie au minimum">10g</div>
+          <div class="itemIcons"><img class="icons jourNuitClass" src="custom/img/" alt="Jour" title="jourNuit1"></div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ng-binding"><strong>Description '+whoDesc}} :</strong> Mélange énergisant de thé vert de Chine agrémenté de ginseng, de gingembre, de nectarine et d'ananas. A la fois frais et piquant, c'est un cocktail efficace pour démarrer du bon pied même par temps gris !</div>
+      </div>
+    </div>
+  </div><!-- end ngRepeat: the in thes | filter: query | orderBy: theOrder:direction -->
+</div>
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/angular/angular.js"></script>
+    <script src="lib/angular/angular-route.min.js"></script>
+    <script src="lib/angular/angular-animate.min.js"></script>
+    <script src="custom/js/controllers.js"></script>
+    <script src="custom/js/app.js"></script>
+    <!--script src="custom/js/custom.js"></script-->
+  </body>
+</html>
