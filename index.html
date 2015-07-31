@@ -35,7 +35,7 @@
               </a>
               <a href="#/search" class="navbar-brand">Appartement des Thés</a>
             </div>
-            <div collapse="navCollapsed" class="nav-collapse collapse navbar-responsive-collapse">
+            <div class="collapse navbar-collapse" ng-class="!navCollapsed && 'in'">
                <form class="navbar-form navbar-left search visible-md visible-lg" role="search">
                 <div class="form-group">
                   <input type="text" class="form-control" ng-model="query" placeholder="Rechercher un thé" autofocus>
