@@ -10,6 +10,9 @@ myApp.config(['$routeProvider', function($routeProvider){
     }).when('/types', {
 		templateUrl: 'partials/types.html',
 		controller: 'TypesController'
+    }).when('/credits', {
+		templateUrl: 'partials/credits.html',
+		controller: 'CreditsController'
 	}).otherwise({
 		redirectTo: '/search'
 	});

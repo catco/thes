@@ -1,7 +1,4 @@
 .nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
-#content {
-  margin-top: 60px; 
-}
 .container + .container .row {
   margin-top: 30px; 
 }

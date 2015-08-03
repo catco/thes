@@ -7,6 +7,7 @@
     <meta name="author" content="">
     <title>Appartement des Thés - Parce que le thé, c'est bon !</title>
     <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/ratchet/css/ratchet.css">
     <!--link rel="stylesheet" href="lib/bootstrap/css/bootstrap-theme.min.css"-->
     <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="lib/angularjs/angular-csp.css" />
@@ -22,60 +23,29 @@
     <link rel="shortcut icon" type="image/x-icon" href="custom/img/favicon.ico" />
   </head>
   <body>
-   <div> 
-      <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="navbar-inner">
-          <div class="container">
-            <div class="navbar-header">
-              <a ng-init="navCollapsed = true" ng-click="navCollapsed = !navCollapsed" class="btn btn-navbar navbar-toggle">
-                <span class="sr-only">Navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </a>
-              <a href="#/search" class="navbar-brand">Appartement des Thés</a>
-            </div>
-            <div class="collapse navbar-collapse" ng-class="!navCollapsed && 'in'">
-               <form class="navbar-form navbar-left search visible-md visible-lg" role="search">
-                <div class="form-group">
-                  <input type="text" class="form-control" ng-model="query" placeholder="Rechercher un thé" autofocus>
-                  <a class="clear" ng-click="query = null">
-                    <span style="margin-left: -22px; top: 3px; cursor: pointer" class="glyphicon glyphicon-remove"></span>
-                  </a>
-                </div>
-              </form>
-               <ul class="nav navbar-nav">
-                <!-- li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Variétés de thés <span class="caret"></span></a>
-                  <ul class="dropdown-menu" id="filter-type">
-                    <li><a href="#" id="infusion">Infusions/tisanes</a></li>
-                    <li><a href="#" id="oolong">Oolong</a></li>
-                    <li><a href="#" id="rooiboos">Rooiboos</a></li>
-                    <li><a href="#" id="blanc">Thés blancs</a></li>
-                    <li><a href="#" id="jaune">Thés jaunes</a></li>
-                    <li><a href="#" id="noir">Thés noirs</a></li>
-                    <li><a href="#" id="vert">Thés verts</a></li>
-                    <li><a href="#" id="np">Non précisé</a></li>
-                  </ul>
-                </li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Jour/nuit ? <span class="caret"></span></a>
-                  <ul class="dropdown-menu" id="filter-jourNuit">
-                    <li><a href="#" id="jourNuit1">Jour</a></li>
-                    <li><a href="#" id="jourNuit2">Nuit</a></li>
-                    <li><a href="#" id="jourNuit3">Jour/nuit</a></li>
-                  </ul>
-                </li-->
-                <li><a href="#/types">Types de thés</a></li>
-                <li><a href="#/jourNuit">Jour/nuit ?</a></li>
-                <li><a href="#credits">Crédits</a></li>
-                <li><a href="#contact">Contact</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <nav class="bar bar-tab">
+      <a class="tab-item active" href="#/search">
+        <span class="icon fa fa-search"></span>
+        <span class="tab-label">Recherche</span>
+      </a>
+      <a class="tab-item" href="#/types">
+        <span class="icon fa fa-filter"></span>
+        <span class="tab-label">Types</span>
+      </a>
+      <a class="tab-item" href="#">
+        <span class="icon fa fa-clock-o"></span>
+        <span class="tab-label">Horaire</span>
+      </a>
+      <a class="tab-item" href="#">
+        <span class="icon icon-star-filled"></span>
+        <span class="tab-label">Notes</span>
+      </a>
+      <a class="tab-item" href="#/credits">
+        <span class="icon fa fa-info"></span>
+        <span class="tab-label">Crédits</span>
+      </a>
+    </nav>
+   <div class="content"> 
     <div class="container" id="content">
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-ls-12">
@@ -84,52 +54,14 @@
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-ls-12">
-         <a name="credits"></a>
-          <div class="border top"></div>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-6 col-ls-6 credits">
-          Built with (love and):
-          <ul>
-            <li><a href="http://www.getbootstrap.com" target="_blank">Bootstrap</a></li>
-            <li><a href="http://api.jquery.com" target="_blank">jQuery</a></li>
-            <li><a href="http://www.json.org/" target="_blank">JSON</a></li>
-            <li><a href="http://shancarter.github.io/mr-data-converter/" target="_blank">Mr Data Converter</a></li>
-            <li><a href="http://jsonlint.com/" target="_blank">JSONLint</a></li>
-            <!-- TODO add AngularJS -->
-          </ul>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-6 col-ls-6 credits">
-          Icons from:
-          <ul>
-            <li><a href="http://www.flaticon.com/authors/freepik" target="_blank">Freepik</a> on <a href="http://www.flaticon.com/" target="_blank">Flaticons</a></li>
-            <li><a href="http://fortawesome.github.io/Font-Awesome/" target="_blank">Font Awesome</a></li>
-            <li><a href="http://getbootstrap.com/components/#glyphicons" target="_blank">Glyphicons</a></li>
-          </ul>
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-12 col-ls-12">
-         <a name="contact"></a>
-          <div class="border top"></div>
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-12 col-ls-12">
-          <ul id="contact">
-            <li><a href="mailto:ccorbesier@gmail.com"><i class="fa fa-envelope"></i></a></li>
-            <li><a href="http://www.webspirits.be" target="_blank"><i class="fa fa-globe"></i></a></li>
-            <li><a href="http://www.twitter.com/catco_" target="_blank"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="https://www.github.com/catco" target="_blank"><i class="fa fa-github"></i></a></li>
-            <li><a href="https://be.linkedin.com/in/catherinecorbesier" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
+    
     <!--script src="lib/jquery/jquery.min.js"></script-->
     <!--script src="lib/bootstrap/js/bootstrap.min.js"></script-->
     <script src="lib/angularjs/angular.js"></script>
     <script src="lib/angularjs/angular-route.js"></script>
     <script src="lib/angularjs/angular-animate.js"></script>
     <script src="lib/angularjs/ui-bootstrap-tpls-0.13.1.js"></script>
+    <script src="lib/ratchet/js/ratchet.min.js"></script>
     <script src="custom/js/controllers.js"></script>
     <script src="custom/js/app.js"></script>
     <!--script src="custom/js/custom.js"></script-->
