@@ -6,6 +6,9 @@ myApp.config(['$routeProvider', function($routeProvider){
 //	}).when('/detail/:itemId', {
 //		templateUrl: 'partials/details.html',
 //		controller: 'DetailsController'
+    }).when('/types', {
+		templateUrl: 'partials/types.html',
+		controller: 'TypesController'
 	}).otherwise({
 		redirectTo: '/search'
 	});

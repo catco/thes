@@ -4,9 +4,28 @@ theControllers.controller('SearchController', ['$scope', '$http', '$routeParams'
 		$scope.thes = data.thes.the;
 		$scope.theOrder = "name";
 	});
-		
 }]);
-theControllers.controller('DetailsController', ['$scope', '$http', '$routeParams', function($scope, $http, $routeParams) {
+theControllers.controller('TypesController', ['$scope', '$http', '$routeParams', function($scope, $http, $routeParams) {
+    $http.get('custom/json/appart-thes.json').success(function(data) {
+		$scope.thes = data.thes.the;
+        $scope.thevarietes = {oolong : true, rooiboos : false, blanc : false, jaune : false, noir : false, vert : false, np : false};
+        myApp.filter('thestypefilter', function () {
+          return function(input, filter) {
+            var result = [];
+            angular.forEach(input, function (the) {
+                angular.forEach(filter, function (isfiltered, varieteID) {
+                    if (isfiltered && varieteID === the.varieteID) {
+                        result.push(the);
+                    };
+                });
+            });
+            return result;
+          };
+        });
+	});
+
+}]);
+/*theControllers.controller('DetailsController', ['$scope', '$http', '$routeParams', function($scope, $http, $routeParams) {
 	$http.get('custom/json/appart-thes.json').success(function(data) {
 		$scope.thes = data.thes.the;
 		$scope.whichItem = $routeParams.itemId;
@@ -22,4 +41,4 @@ theControllers.controller('DetailsController', ['$scope', '$http', '$routeParams
 		}
 	});
 		
-}]);
+}]);*/
