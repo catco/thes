@@ -4,7 +4,7 @@
       <div class="form-group">
         <input type="text" class="form-control" ng-model="query" placeholder="Rechercher un thé" autofocus>
         <a class="clear" ng-click="query = null">
-          <span style="float: right; top: -23px; right: 5px;" class="glyphicon glyphicon-remove"></span>
+          <span style="float: right; top: -23px; right: 5px; cursor: pointer" class="glyphicon glyphicon-remove"></span>
         </a>
       </div>
     </form>    
@@ -20,7 +20,7 @@
           <div class="itemIcons"><img class="icons" src="custom/img/duree.png" alt="Durée d\'infusion" />{{the.Duree}}</div>
           <div class="itemIcons"><img class="icons" src="custom/img/quantite-tasse.png" alt="Quantité par tasse" />{{the.Quantite}}</div>
           <div class="itemIcons"><img class="icons" src="custom/img/quantite-bouilloire.png" alt="Quantité pour la bouilloire remplie au minimum" />{{the.quantiteBouilloire}}</div>
-          <div class="itemIcons"><img class="icons jourNuitClass" src="custom/img/" alt="{{the.jourNuit}}" title="{{the.jourNuitID}}" /></div>
+          <div class="itemIcons"><img class="icons jourNuitClass" src="custom/img/{{the.jourNuitID}}.png" alt="{{the.jourNuit}}" title="{{the.jourNuitID}}" /></div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><strong>Description :</strong> {{the.Description}}</div>
   </accordion-group>
