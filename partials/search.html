@@ -3,6 +3,9 @@
     <form class="col-xs-12 col-sm-12 hidden-md hidden-lg" role="search">
       <div class="form-group">
         <input type="text" class="form-control" ng-model="query" placeholder="Rechercher un thé" autofocus>
+        <a class="clear" ng-click="query = null">
+          <span style="float: right; top: -23px; right: 5px;" class="glyphicon glyphicon-remove"></span>
+        </a>
       </div>
     </form>    
   </div>
