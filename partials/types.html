@@ -4,7 +4,12 @@
     <form class="col-xs-12 col-sm-12 col-md-12 col-lg-12" role="search" ng-model="query">
       <div class="form-group">
         <div>
-          <label ng-repeat="(varieteID, value) in thevarietes" class="checkbox-inline">
+          <label class="checkbox-inline filterType selectAll">
+            <input type="checkbox" ng-model="selectedAll" ng-click="checkAll()" checked="checked" />Tout (dé)sélectionner
+          </label>
+        </div>
+        <div>
+          <label ng-repeat="(varieteID, value) in thevarietes" class="checkbox-inline filterType">
             <input type="checkbox" ng-model="thevarietes[varieteID]" /> {{varieteID}}
           </label>
         </div>

@@ -26,6 +26,16 @@
 .itemIcons:first-child {
   margin-left: 0;
 }
+@media (max-width: 756px) {
+  .filterType:nth-child(5) {
+    margin-left: 0;
+  }
+}
+@media (max-width: 413px) {
+  .filterType:nth-child(8) {
+    margin-left: 0;
+  }
+}
 .border {
   border: 1px solid #9d9d9d;
 }
