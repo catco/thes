@@ -13,6 +13,9 @@ myApp.config(['$routeProvider', function($routeProvider){
     }).when('/credits', {
 		templateUrl: 'partials/credits.html',
 		controller: 'CreditsController'
+    }).when('/details/:itemId', {
+		templateUrl: 'partials/details.html',
+		controller: 'DetailsController'
 	}).otherwise({
 		redirectTo: '/search'
 	});

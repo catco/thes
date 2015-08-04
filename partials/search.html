@@ -2,14 +2,22 @@
   <div class="row">
     <form class="col-xs-12 col-sm-12 hidden-md hidden-lg" role="search">
       <div class="form-group">
-        <input type="text" class="form-control" ng-model="query" placeholder="Rechercher un thé" autofocus>
+        <input type="text" class="form-control" ng-model="query" placeholder="Rechercher un thé" style="margin-top: 10px;">
         <a class="clear" ng-click="query = null">
-          <span style="float: right; top: -23px; right: 5px; cursor: pointer" class="glyphicon glyphicon-remove"></span>
+          <span style="float: right; top: 16px; right: 5px; cursor: pointer; position: absolute;" class="icon icon-close"></span>
         </a>
       </div>
     </form>    
   </div>
-<accordion close-others="oneAtATime">
+  <ul class="table-view">
+    <li class="table-view-cell" ng-repeat="the in thes | filter: query">
+      <a href="#/details/{{the.ID}}" class="navigate-right" data-transition="slide-in">
+        {{the.Nom}}
+      </a>
+    </li>
+  </ul>
+</section>
+<!--accordion close-others="oneAtATime">
   <accordion-group heading="{{the.Nom}}" is-open="status.isFirstOpen" is-disabled="status.isFirstDisabled" ng-repeat="the in thes | filter: query">
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 leftSide">
           <strong>Variété : </strong> {{the.Variete}}
@@ -24,4 +32,4 @@
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><strong>Description :</strong> {{the.Description}}</div>
   </accordion-group>
-</accordion>
+</accordion-->

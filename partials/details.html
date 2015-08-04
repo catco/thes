@@ -1,10 +1,31 @@
-<section class="layerinfo">
-	<div class="layer cf" ng-model="layers">
-	<a href="#/detail/{{prevItem}}" class="btn btn-left">&lt;</a>
-	<a href="#/detail/{{nextItem}}" class="btn btn-right">&gt;</a>
-	<h1>{{layers[whichItem].name}}</h1>
-	<div class="info">
-		{{layers[whichItem].href}}
-	</div>
-	<a href="index.html">&laquo;Back to search</a>
+<section class="thespage">
+  <h1>{{thes[whichItem].Nom}}</h1>
+  <div>
+    <strong>Variété : </strong> {{thes[whichItem].Variete}}
+    <br /><strong>Origine :</strong> {{thes[whichItem].Origine}}
+  </div>
+  <div class="itemIcons"><img class="icons" src="custom/img/temp.png" alt="Température d\'infusion" /> {{thes[whichItem].Temp}}</div>
+  <div class="itemIcons"><img class="icons" src="custom/img/duree.png" alt="Durée d\'infusion" />{{thes[whichItem].Duree}}</div>
+  <div class="itemIcons"><img class="icons" src="custom/img/quantite-tasse.png" alt="Quantité par tasse" />{{thes[whichItem].Quantite}}</div>
+  <div class="itemIcons"><img class="icons" src="custom/img/quantite-bouilloire.png" alt="Quantité pour la bouilloire remplie au minimum" />{{thes[whichItem].quantiteBouilloire}}</div>
+  <div class="itemIcons"><img class="icons jourNuitClass" src="custom/img/{{thes[whichItem].jourNuitID}}.png" alt="{{thes[whichItem].jourNuit}}" title="{{thes[whichItem].jourNuitID}}" /></div>
+  <div>
+    <strong>Description :</strong> {{thes[whichItem].Description}}
+  </div>
 </section>
+<!--accordion close-others="oneAtATime">
+  <accordion-group heading="{{thes[whichItem].Nom}}" is-open="status.isFirstOpen" is-disabled="status.isFirstDisabled" ng-repeat="the in thes | filter: query">
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 leftSide">
+          <strong>Variété : </strong> {{thes[whichItem].Variete}}
+          <br /><strong>Origine :</strong> {{thes[whichItem].Origine}}
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 rightSide">
+          <div class="itemIcons"><img class="icons" src="custom/img/temp.png" alt="Température d\'infusion" /> {{thes[whichItem].Temp}}</div>
+          <div class="itemIcons"><img class="icons" src="custom/img/duree.png" alt="Durée d\'infusion" />{{thes[whichItem].Duree}}</div>
+          <div class="itemIcons"><img class="icons" src="custom/img/quantite-tasse.png" alt="Quantité par tasse" />{{thes[whichItem].Quantite}}</div>
+          <div class="itemIcons"><img class="icons" src="custom/img/quantite-bouilloire.png" alt="Quantité pour la bouilloire remplie au minimum" />{{thes[whichItem].quantiteBouilloire}}</div>
+          <div class="itemIcons"><img class="icons jourNuitClass" src="custom/img/{{thes[whichItem].jourNuitID}}.png" alt="{{thes[whichItem].jourNuit}}" title="{{thes[whichItem].jourNuitID}}" /></div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><strong>Description :</strong> {{thes[whichItem].Description}}</div>
+  </accordion-group>
+</accordion-->
